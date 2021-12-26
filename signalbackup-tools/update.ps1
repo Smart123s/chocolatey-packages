@@ -3,9 +3,34 @@ import-module au
 $releases = 'https://github.com/bepaald/signalbackup-tools/releases'
 
 function global:au_SearchReplace {
+    # Save program in the Wayback Machine
+    # Because the author keeps only the latest version of the software available on Github
+    $Headers = @{
+        Accept = "application/json"
+        Authorization = "LOW $($env:ia_key)"
+    }
+
+    # Sned archival request
+    Write-Host "Saving in URL Internet Archive: $archive"
+    $save = Invoke-RestMethod -Method 'Post' -Uri "https://web.archive.org/save" -Body @{url=$Latest.URL64} -Headers $Headers
+    $job_id = $save.job_id
+
+    Write-Host "Save Page Now job_id: $job_id"
+
+    Do {
+        $status = Invoke-RestMethod -Method 'Post' -Uri "https://web.archive.org/save/status" -Body @{job_id="$($job_id)"} -Headers $Headers
+    } While ($status.status –eq 'pending')
+    
+    if ($status.status -eq 'success') {
+        $archive = "https://web.archive.org/web/$($status.timestamp)/$($status.original_url)"
+    } else {
+        throw "Failed to archive URL \n $status"
+    }
+
     @{
         ".\tools\VERIFICATION.txt" = @{
           "(?i)(Download:).*"   = "`${1} $($Latest.URL64)"
+          "(?i)(Archived:).*"   = "`${1} $($archive)"
           "(?i)(sha256:).*"        = "`${1} $($Latest.Checksum64)"
         }
     }

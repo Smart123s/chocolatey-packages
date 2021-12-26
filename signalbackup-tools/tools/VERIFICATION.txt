@@ -2,6 +2,12 @@ VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
+The author removes older versions of signalbackup-tools from its GitHub
+releases page, once a new version is released. An archived download URL
+is provided for the software, in case the original link goes down by the
+time a maintainer can review it.
+
 signalbackup-tools.exe:
 Download: https://github.com/bepaald/signalbackup-tools/releases/download/20211224-2/signalbackup-tools_win.exe
+Archived: https://web.archive.org/web/20211226150421/https://github.com/bepaald/signalbackup-tools/releases/download/20211224-2/signalbackup-tools_win.exe
 sha256: 40DF7B75DDC113EF5C4906586AFA8F05A8D3766140610CB1F733BCA290B08EEC
