@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>frozenfruits</id>
-    <version>1.4</version>
+    <version>1.4.0.1</version>
     <title>Frozen Fruits (Install)</title>
     <authors>blueskied</authors>
     <owners>Smart123s</owners>
