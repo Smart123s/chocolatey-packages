@@ -23,15 +23,6 @@ environment:
     secure: fk476iE59zELR3ZgWPIqozM9oMJzraYp8csAzup3RH8UYkXxfoRBNAathcisUWCb #https://ci.appveyor.com/tools/encrypt
 
 
-  # Mail credentials - for error notifications
-  mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
-  mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
-  mail_server: smtp.gmail.com
-  mail_port: 587
-  mail_enablessl: true
-
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
   gist_id: be5bc050a10ff75f6fa0b8efe0cd35f6
