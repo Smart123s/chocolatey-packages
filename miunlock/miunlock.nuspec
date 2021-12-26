@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>miunlock</id>
+    <version>5.5.224.24</version>
+    <title>Mi Unlock</title>
+    <authors>Xiaomi</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://en.miui.com/unlock/download_en.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Official way of unlocking the bootloader on Mi devices. After you unlock the device, it will become less secure. Your personal data might be leaked or lost.</description>
+    <summary>Tool to unlock your Mi device's bootloader</summary>
+    <tags>xiaomi bootloader unlock flash android miui</tags>
+    <docsUrl>https://c.mi.com/thread-2262302-1-0.html</docsUrl>
+  </metadata>
+</package>
