@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>frozenfruits2</id>
+    <version>1.4</version>
+    <title>Frozen Fruits 2 (Install)</title>
+    <authors>blueskied</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://www.blueskied.com/fruits2.htm</projectUrl>
+    <iconUrl>https://i.ibb.co/GcDdNbD/Frozen-Fruits2.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Play 35 new levels designed by fans of Frozen Fruits.
+
+This is the sequel to the classic Frozen Fruits game with 35 new levels created by fans of the first part.
+Once more it's your mission to enter 35 storage rooms through tubes and bust all fruit bricks in there.
+Quick reflexes and logical thinking are required to master the task.</description>
+    <summary>A free platform puzzle game with 35 challenging levels for Windows PC.</summary>
+    <tags>frozenfruits game</tags>
+  </metadata>
+</package>
