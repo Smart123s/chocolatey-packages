@@ -7,7 +7,7 @@
     <authors>Mario Bălănică</authors>
 	  <owners>Smart123s</owners>
     <projectUrl>https://www.worproject.ml/</projectUrl>
-	  <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/87a561003a20cc0ff1df2426befd61a15d75528f/worimager/icon_dark.svg</iconUrl>
+	  <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/5dc8c1232330f63cf863209835776f293539ae61/icons/worimager.svg</iconUrl>
 	  <copyright>Copyright © 2018-2021 Mario Bălănică. All Rights Reserved.</copyright>
     <docsUrl>https://www.worproject.ml/guides/how-to-install/from-windows</docsUrl>
     <tags>raspberry-pi raspberry pi image imager sd flash windows arm</tags>

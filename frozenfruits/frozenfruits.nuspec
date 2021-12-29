@@ -7,7 +7,7 @@
     <authors>blueskied</authors>
     <owners>Smart123s</owners>
     <projectUrl>https://www.blueskied.com/fruits.htm</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/53896f670d17f96550a03b027833edb1d136ff35/frozenfruits/icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/5dc8c1232330f63cf863209835776f293539ae61/icons/frozenfruits.png</iconUrl>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/main/frozenfruits</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A free platform puzzle game with 35 challenging levels for Windows PC.
