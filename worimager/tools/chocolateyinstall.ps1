@@ -1,6 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://dl.orangedox.com/WoR-Release-2.2.2?dl=1'
 $PackageParameters = Get-PackageParameters
 
 ### PARAMETERS
@@ -14,8 +13,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $targetDir = $installDir
   
-  url           = $url
-  checksum      = 'FF536EDB05CD36A528BA786CBEE7BD55993DB182F98DE7156D43C840EF44DC3A'
+  url           = 'https://dl.orangedox.com/WoR-Release-2.2.2?dl=1'
+  checksum      = 'ff536edb05cd36a528ba786cbee7bd55993db182f98de7156d43c840ef44dc3a'
   checksumType  = 'sha256'
 
 }

@@ -21,7 +21,7 @@ Command-line options for installer configuration:
 
 This guide and software presented here are provided "as is", without warranty of any kind. We're not responsible for any damage caused to your devices by following the steps below.</description>
   <dependencies>
-      <dependency id="dotnet4.7"/>
+      <dependency id="dotnet4.7" />
   </dependencies>
   </metadata>
   <files>
