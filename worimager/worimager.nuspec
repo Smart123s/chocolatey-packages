@@ -12,7 +12,12 @@
     <docsUrl>https://www.worproject.ml/guides/how-to-install/from-windows</docsUrl>
     <tags>raspberry-pi raspberry pi image imager sd flash windows arm</tags>
     <summary>Flash Windows images to an SD Card, that can be used in a Raspberry Pi.</summary>
-    <description>## Disclaimer
+    <description>## Package Parameters
+Command-line options for installer configuration:
+  - `/NoDesktopShortcut` Do not create Desktop Shortcut
+  - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+## Disclaimer
 
 This guide and software presented here are provided "as is", without warranty of any kind. We're not responsible for any damage caused to your devices by following the steps below.</description>
   <dependencies>
