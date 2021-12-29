@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>worimager</id>
+    <version>2.2.2</version>
+    <title>Windows on Raspberry imager</title>
+    <authors>Mario Bălănică</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://www.worproject.ml/</projectUrl>
+	  <iconUrl>https://www.worproject.ml/user/themes/wor-quark/images/logo/logo.svg</iconUrl>
+	  <copyright>Copyright © 2018-2021 Mario Bălănică. All Rights Reserved.</copyright>
+    <docsUrl>https://www.worproject.ml/guides/how-to-install/from-windows</docsUrl>
+    <tags>raspberry-pi raspberry pi image imager sd flash windows arm</tags>
+    <summary>Flash Windows images to an SD Card, that can be used in a Raspberry Pi.</summary>
+    <description>## Disclaimer
+
+This guide and software presented here are provided "as is", without warranty of any kind. We're not responsible for any damage caused to your devices by following the steps below.</description>
+  <dependencies>
+      <dependency id="dotnet4.7"/>
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
