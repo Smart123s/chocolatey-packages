@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-Uninstall-ChocolateyZipPackage $env:ChocolateyPackageName 'WoR_Release_2.2.2.zip'
+Uninstall-ChocolateyZipPackage $env:ChocolateyPackageName 'WoR_Release_2.2.3.zip'
 
 # Remove start menu shortcut
 $programsPath = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\"
