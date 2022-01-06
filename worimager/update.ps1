@@ -23,7 +23,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
     $regex         = '.*WoR-Release-.*?dl=1'
     $url           = $download_page.links | ? href -match $regex | select -First 1 -expand href
-    $version       = '2.2.2'
+    $version       = ($url -split '-' | select -Last 1).trim("?dl=1")
 	
     return @{ Version = $version; URL = $url }
 }
