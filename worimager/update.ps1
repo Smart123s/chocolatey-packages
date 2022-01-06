@@ -1,5 +1,4 @@
 Import-Module AU
-Import-Module Wormies-AU-Helpers
 
 $releases = 'https://www.worproject.ml/downloads/'
 
