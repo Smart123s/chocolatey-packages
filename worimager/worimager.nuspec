@@ -10,6 +10,7 @@
 	  <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/5dc8c1232330f63cf863209835776f293539ae61/icons/worimager.svg</iconUrl>
 	  <copyright>Copyright © 2018-2021 Mario Bălănică. All Rights Reserved.</copyright>
     <docsUrl>https://www.worproject.ml/guides/how-to-install/from-windows</docsUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/worimager</packageSourceUrl>
     <tags>raspberry-pi raspberry pi image imager sd flash windows arm</tags>
     <summary>Flash Windows images to an SD Card, that can be used in a Raspberry Pi.</summary>
     <description>## Package Parameters
