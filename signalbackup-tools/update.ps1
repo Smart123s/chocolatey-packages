@@ -12,8 +12,8 @@ function global:au_SearchReplace {
 }
 
 function global:au_BeforeUpdate {
-    rm $PSScriptRoot\tools\* -Recurse -Force -Exclude "VERIFICATION.txt","LICENSE.txt"
-    iwr $Latest.URL64 -OutFile "$PSScriptRoot\tools\signalbackup-tools.exe"
+    $Latest.FileType = $Latest.URL64 -split '\.' | select -last 1
+    Get-RemoteFiles -Purge -NoSuffix -FileNameBase "signalbackup-tools"
 }
 
 function global:au_GetLatest {
@@ -27,12 +27,9 @@ function global:au_GetLatest {
     # Convert version to choco format
     $version = $version.Insert(6, ".").Insert(4, ".").Replace("-", ".")
 
-    $checksum = (Get-FileHash "$PSScriptRoot\tools\signalbackup-tools.exe").Hash
-
     @{
        URL64   = 'https://github.com' + $url
        Version = $version
-       Checksum64 = $checksum
     }
 }
 
@@ -42,5 +39,3 @@ try {
     $ignore = 'Unable to connect to the remote server'
     if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
 }
-
-update
