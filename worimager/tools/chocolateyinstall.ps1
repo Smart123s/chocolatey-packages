@@ -11,7 +11,7 @@ If ($PackageParameters.InstallDir) {
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  UnzipLocation = $targetDir = $installDir
+  UnzipLocation = $installDir
   
   url           = 'https://dl.orangedox.com/WoR-Release-2.2.3?dl=1'
   checksum      = '756eaa61e0f7147362800d031e6cc25a8d4de4e050c1381bca4b8c9e732cb58a'
