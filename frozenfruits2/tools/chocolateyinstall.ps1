@@ -1,5 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$PackageParameters = Get-PackageParameters
 $url        = 'https://www.blueskied.com/Fruits2_setup.exe'
 
 $packageArgs = @{

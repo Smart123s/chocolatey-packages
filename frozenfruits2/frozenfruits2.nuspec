@@ -14,7 +14,11 @@
 
 This is the sequel to the classic Frozen Fruits game with 35 new levels created by fans of the first part.
 Once more it's your mission to enter 35 storage rooms through tubes and bust all fruit bricks in there.
-Quick reflexes and logical thinking are required to master the task.</description>
+Quick reflexes and logical thinking are required to master the task.
+
+## Package Parameters
+Command-line options for installer configuration:
+  - `/NoDesktopShortcut` Do not create Desktop Shortcut</description>
     <summary>A free platform puzzle game with 35 challenging levels for Windows PC.</summary>
     <tags>frozenfruits game</tags>
   </metadata>

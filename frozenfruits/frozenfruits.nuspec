@@ -18,7 +18,11 @@ Mankind's last chance: Infiltrate all of their 35 gigantic fruit storage buildin
 Without food their reign of terror will come to an end.
 
 ## Your mission
-Your mission is to get access to all 35 store-rooms of the aliens and destroy all fruits there. When you start the game, your spheroid fruitcrusher has just entered the alien's storage building. Here you can enter the 35 rooms through the green tubes. If you destroy all fruits in a store room, you get one star. You will need the stars to gain access to new areas in the storage building. Star doors block your forthcoming. To smash a star door, you need at least as many stars as is inscribed on the door. Tubes with a star on them haven't been solved yet.</description>
+Your mission is to get access to all 35 store-rooms of the aliens and destroy all fruits there. When you start the game, your spheroid fruitcrusher has just entered the alien's storage building. Here you can enter the 35 rooms through the green tubes. If you destroy all fruits in a store room, you get one star. You will need the stars to gain access to new areas in the storage building. Star doors block your forthcoming. To smash a star door, you need at least as many stars as is inscribed on the door. Tubes with a star on them haven't been solved yet.
+
+## Package Parameters
+Command-line options for installer configuration:
+  - `/NoDesktopShortcut` Do not create Desktop Shortcut</description>
     <summary>A free platform puzzle game with 35 challenging levels for Windows PC.</summary>
     <tags>frozenfruits game</tags>
   </metadata>
