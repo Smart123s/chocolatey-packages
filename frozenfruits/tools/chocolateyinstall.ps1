@@ -1,12 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters = Get-PackageParameters
-$url        = 'https://www.blueskied.com/Fruits_setup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'EXE'
-  url           = $url
+  url           = 'https://www.blueskied.com/Fruits_setup.exe'
 
   softwareName  = 'Frozen Fruits 1.4'
 
