@@ -1,9 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
+
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'Geekbench 5'
   fileType      = 'EXE'
-  silentArgs    = "/S"
+  silentArgs    = '/S'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
