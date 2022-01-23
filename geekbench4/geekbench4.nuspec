@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>geekbench4</id>
+    <version>4.4.4</version>
+    <title>Geekbench 4</title>
+    <authors>Primate Labs Inc.</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://www.geekbench.com/geekbench4/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/3b4482a2d399bb6a83504ee295e099353e109b21/icons/geekbench4.png</iconUrl>
+	  <copyright>Copyright © 2004-2022 Primate Labs Inc.</copyright>
+    <licenseUrl>https://www.primatelabs.com/legal/terms-of-use.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/geekbench4</packageSourceUrl>
+    <tags>benchmark</tags>
+    <summary>Geekbench 4 measures your system's power and tells you whether your computer is ready to roar.</summary>
+    <description>Geekbench 4 measures your system's power and tells you whether your computer is ready to roar. How strong is your mobile device or desktop computer? How will it perform when push comes to crunch? These are the questions that Geekbench can answer.</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
