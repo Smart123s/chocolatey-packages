@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tresorit</id>
+    <version>3.5.3436.2410</version>
+    <title>Tresorit</title>
+    <authors>Tresorit AG</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://tresorit.com/download</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/3454dc38c68e9a058f4337ee9f0add4de38aff43/icons/tresorit.png</iconUrl>
+	  <copyright>Copyright © 2022 Tresorit. All rights reserved.</copyright>
+    <licenseUrl>https://tresorit.com/legal</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/tresorit</packageSourceUrl>
+    <tags>cloud storage file share</tags>
+    <summary>Tresorit is the ultra-secure place in the cloud to store, sync, and share files within your organization and with external partners.</summary>
+    <description>#### Tresorit
+Tresorit is the ultra-secure place in the cloud to store, sync, and share files within your organization and with external partners.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
