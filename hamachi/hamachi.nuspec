@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hamachi</id>
+    <version>2.2.0.633</version>
+    <title>LogMeIn Hamachi</title>
+    <authors>LogMeIn Inc.</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://www.vpn.net/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/0f64dadaf78a53524884df7a243c94d83044e566/icons/hamachi.png</iconUrl>
+	  <copyright>Copyright © 2003-2018 LogMeIn, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://www.logmein.com/legal/terms-and-conditions</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/hamachi</packageSourceUrl>
+    <tags>vpn logmein hamachi network</tags>
+    <summary>LogMeIn Hamachi is a hosted VPN service that lets you securely extend LAN-like networks to distributed teams, mobile workers and your gamer friends alike. In minutes</summary>
+    <description>Hamachi is capable of establishing direct links between computers that are behind network address translation ("NAT") firewalls without requiring reconfiguration (when the user's PC can be accessed directly without relays from the Internet/WAN side); in other words, it establishes a connection over the Internet that emulates the connection that would exist if the computers were connected over a local area network ("LAN"). [Source](https://en.wikipedia.org/wiki/LogMeIn_Hamachi)</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
