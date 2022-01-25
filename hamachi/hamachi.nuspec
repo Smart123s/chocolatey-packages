@@ -7,7 +7,7 @@
     <authors>LogMeIn Inc.</authors>
 	  <owners>Smart123s</owners>
     <projectUrl>https://www.vpn.net/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/0f64dadaf78a53524884df7a243c94d83044e566/icons/hamachi.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@b9d5928d0b035433788c6e9d91883f9fe00bbf16/icons/hamachi.png</iconUrl>
 	  <copyright>Copyright © 2003-2018 LogMeIn, Inc. All rights reserved.</copyright>
     <licenseUrl>https://www.logmein.com/legal/terms-and-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

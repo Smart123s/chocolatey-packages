@@ -7,7 +7,7 @@
     <authors>Tresorit AG</authors>
 	  <owners>Smart123s</owners>
     <projectUrl>https://tresorit.com/download</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/3454dc38c68e9a058f4337ee9f0add4de38aff43/icons/tresorit.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@b9d5928d0b035433788c6e9d91883f9fe00bbf16/icons/tresorit.png</iconUrl>
 	  <copyright>Copyright © 2022 Tresorit. All rights reserved.</copyright>
     <licenseUrl>https://tresorit.com/legal</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

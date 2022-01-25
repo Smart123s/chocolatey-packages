@@ -7,7 +7,7 @@
     <authors>Xiaomi</authors>
     <owners>Smart123s</owners>
     <projectUrl>https://en.miui.com/unlock/download_en.html</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/5dc8c1232330f63cf863209835776f293539ae61/icons/miunlock.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@b9d5928d0b035433788c6e9d91883f9fe00bbf16/icons/miunlock.png</iconUrl>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/miunlock</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Official way of unlocking the bootloader on Mi devices. After you unlock the device, it will become less secure. Your personal data might be leaked or lost.</description>
