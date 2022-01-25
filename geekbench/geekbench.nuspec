@@ -21,7 +21,7 @@ This is just a metapackage for the latest Geekbench release(currently Geekbench 
 
 Geekbench is a cross-platform benchmark that measures your system's performance with the press of a button.</description>
   <dependencies>
-    <dependency id="geekbench5" />
+    <dependency id="geekbench5" version="[5.4.4]" />
   </dependencies>
   </metadata>
 </package>
