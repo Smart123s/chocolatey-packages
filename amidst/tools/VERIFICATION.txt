@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+signalbackup-tools_win.exe: 
+Download: https://github.com/toolbox4minecraft/amidst/releases/download/v4.7/amidst-v4-7.exe
+sha256: 1AB1FC63EC206BFC196177F4E1F4EC0FAD539F1F836B08AA3D6B2239A09C35C6

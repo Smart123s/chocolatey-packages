@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>amidst</id>
+    <version>4.7</version>
+    <title>Amidst</title>
+    <authors>toolbox4minecraft</authors>
+    <projectUrl>https://github.com/toolbox4minecraft/amidst</projectUrl>
+    <licenseUrl>https://github.com/toolbox4minecraft/amidst/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/toolbox4minecraft/amidst</projectSourceUrl>
+    <docsUrl>https://github.com/toolbox4minecraft/amidst/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/toolbox4minecraft/amidst/issues</bugTrackerUrl>
+    <tags>minecraft world game explorer savegame</tags>
+    <summary>Amidst is a tool to display an overview of a Minecraft world, without actually creating it.</summary>
+    <description>A community maintained project, similar to Dynamp.</description>
+	<dependencies>
+      <dependency id="javaruntime" version="8.0"/>
+	  <dependency id="minecraft-launcher"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
