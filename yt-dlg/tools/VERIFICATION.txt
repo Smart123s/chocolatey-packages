@@ -1,0 +1,7 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+yt-dlg.msi:
+Download: https://github.com/oleksis/youtube-dl-gui/releases/download/v1.8.3/yt-dlg-20220118.2.msi
+sha256: 71D4FC4EEA97199218FDDE36717E90326ED0FD4BD980C6AFBFFC263514E34BE9

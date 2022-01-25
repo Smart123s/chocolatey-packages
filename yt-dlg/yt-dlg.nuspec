@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>yt-dlg</id>
+    <version>1.8.3</version>
+    <title>yt-dlg</title>
+    <authors>oleksis</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://oleksis.github.io/youtube-dl-gui/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/Smart123s/chocolatey-packages/ab5830fd41426ea510480b1f6f50eeab5c544ba5/icons/yt-dlg.png</iconUrl>
+	  <copyright>The Unlicense</copyright>
+    <licenseUrl>https://github.com/oleksis/youtube-dl-gui/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/oleksis/youtube-dl-gui/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/oleksis/youtube-dl-gui/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/yt-dlg</packageSourceUrl>
+    <tags>youtube-dl download</tags>
+    <summary>A cross platform front-end GUI of the popular youtube-dl media downloader.</summary>
+    <description>#### yt-dlg
+A cross platform front-end GUI of the popular [youtube-dl](https://github.com/ytdl-org/youtube-dl/) media downloader written in wxPython.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
