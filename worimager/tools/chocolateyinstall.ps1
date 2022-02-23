@@ -13,8 +13,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $installDir
   
-  url           = 'https://dl.orangedox.com/WoR-Release-2.2.3?dl=1'
-  checksum      = '756eaa61e0f7147362800d031e6cc25a8d4de4e050c1381bca4b8c9e732cb58a'
+  url           = 'https://dl.orangedox.com/WoR-Release-2.3.0?dl=1'
+  checksum      = '022d8274513030fa7d166837bf34e1489f2963f851dfe011655ed9124d545c59'
   checksumType  = 'sha256'
 
 }
