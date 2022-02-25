@@ -7,7 +7,7 @@
     <authors>FabricMC</authors>
 	  <owners>Smart123s</owners>
     <projectUrl>https://fabricmc.net/use/installer/</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@edab4920ccb8b21dae4c35c66f1b39fdaa16c5f9/icons/fabric-installer.png</iconUrl>
 	  <copyright>Copyright (c) 2016, 2017, 2018, 2019 FabricMC</copyright>
     <licenseUrl>https://github.com/FabricMC/fabric-installer/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
