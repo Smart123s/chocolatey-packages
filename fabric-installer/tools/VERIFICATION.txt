@@ -1,0 +1,7 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+fabric-installer.exe:
+Download: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.10.2/fabric-installer-0.10.2.exe
+sha256: DA1F033A16381A3888C30846F6A91E2E663CA165ADD5C09E8F3CBD0D189A3284

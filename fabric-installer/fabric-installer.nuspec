@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fabric-installer</id>
+    <version>0.10.2</version>
+    <title>Fabric Installer</title>
+    <authors>FabricMC</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://fabricmc.net/use/installer/</projectUrl>
+    <iconUrl></iconUrl>
+	  <copyright>Copyright (c) 2016, 2017, 2018, 2019 FabricMC</copyright>
+    <licenseUrl>https://github.com/FabricMC/fabric-installer/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/FabricMC/fabric-installer</projectSourceUrl>
+    <docsUrl>https://fabricmc.net/wiki/doku.php#installing_and_using_fabric</docsUrl>
+    <bugTrackerUrl>https://github.com/FabricMC/fabric-installer/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/fabric-installer</packageSourceUrl>
+    <tags>game minecraft mods java</tags>
+    <summary>An installer for Fabric, a modular modding toolchain targeting Minecraft 1.14 and above, including snapshots.</summary>
+    <description>Fabric is a lightweight, experimental modding toolchain for Minecraft.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
