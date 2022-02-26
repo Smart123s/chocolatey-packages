@@ -20,3 +20,9 @@ If (-Not( $PackageParameters.NoDesktopShortcut )) {
   $programsPath = "$Env:USERPROFILE\Desktop\Turn Off Xbox 360 Controller.lnk"
   Install-ChocolateyShortcut -shortcutFilePath "$programsPath" -targetPath "$targetPath"
 }
+
+# Add auto start to registry
+If (-Not( $PackageParameters.NoAutoStart )) {
+  $regPath = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
+  New-ItemProperty -Path "$regPath" -Name "$env:ChocolateyPackageName" -PropertyType String -Value "$targetPath"
+}

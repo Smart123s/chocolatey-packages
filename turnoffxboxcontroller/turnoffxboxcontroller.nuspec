@@ -27,7 +27,7 @@ Create shortcut to the app with a /silent parameter and double click it as in pr
 
  - `/NoDesktopShortcut` Do not create Desktop Shortcut
  - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
- - `/NoStartupService` Do not start the apllication with Windows
+ - `/NoAutoStart` Do not start the apllication with Windows
 
 #### Package updates
    
