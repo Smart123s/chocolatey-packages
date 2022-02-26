@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fmodel</id>
+    <version>4.2.1.0</version>
+    <title>FModel</title>
+    <authors>Asval</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://fmodel.app/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@8b1d1614de1361a8b481decabe1e1b6717585d78/icons/fmodel.png</iconUrl>
+	  <copyright>GPL-3.0 License</copyright>
+    <licenseUrl>https://github.com/iAmAsval/FModel/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/iAmAsval/FModel</projectSourceUrl>
+    <docsUrl>https://fmodel.app/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/iAmAsval/FModel/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/fmodel</packageSourceUrl>
+    <tags>game unreal-engine reverse-engineer data-mining</tags>
+    <summary>Beginner-friendly and open-source software for data-mining games made with Unreal Engine.</summary>
+    <description>Software for exploring UE4-5 games' files
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  <dependencies>
+    <dependency id="dotnet-desktopruntime" version="6.0.1" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
