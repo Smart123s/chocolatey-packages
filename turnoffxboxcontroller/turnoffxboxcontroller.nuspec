@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>turnoffxboxcontroller</id>
+    <version>1.2.0</version>
+    <title>Turn Off Xbox 360 Controller</title>
+    <authors>Ighor July</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://sourceforge.net/projects/turnoffxboxcontroller/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@02ec35185330ee7bfb0a03d94b52aebb0059f0e2/icons/turnoffxboxcontroller.png</iconUrl>
+	  <copyright>Copyright (c) 2013-2021, Ighor July</copyright>
+    <licenseUrl>https://github.com/JulyIghor/TurnOffXboxController/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/JulyIghor/TurnOffXboxController</projectSourceUrl>
+    <docsUrl>https://github.com/JulyIghor/TurnOffXboxController/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/JulyIghor/TurnOffXboxController/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/turnoffxboxcontroller</packageSourceUrl>
+    <tags>game xbox controller poweroff</tags>
+    <summary>Turn Off your Wireless Xbox 360 Controller on PC</summary>
+    <description>#### Three ways to turn off Xbox 360 controllers
+
+Double click the tray icon
+Use tray icon context menu
+Create shortcut to the app with a /silent parameter and double click it as in previous app versions  
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+ - `/NoStartupService` Do not start the apllication with Windows
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  <dependencies>
+    <dependency id="javaruntime" version="8.0" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
