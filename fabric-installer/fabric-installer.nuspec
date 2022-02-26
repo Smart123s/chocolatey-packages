@@ -19,9 +19,21 @@
     <summary>An installer for Fabric, a modular modding toolchain targeting Minecraft 1.14 and above, including snapshots.</summary>
     <description>Fabric is a lightweight, experimental modding toolchain for Minecraft.
 
+#### Java version
+
+The Fabric installer can be run with Java 8, so that is the minimum version of the java-runtime dependency of this package. However, if you want to play Minecraft 1.17 or higher, you'll need to install a newer version of Java. For more information, check https://fabricmc.net/wiki/player:tutorials:java:windows. You can also install newer versions of Java via Chocolaety.
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
 #### Package updates
    
 New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  <dependencies>
+    <dependency id="javaruntime" version="8.0"/>
+  </dependencies>
   </metadata>
   <files>
     <file src="tools/**" target="tools" />
