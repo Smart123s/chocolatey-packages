@@ -5,8 +5,8 @@ $releases = 'https://github.com/JulyIghor/TurnOffXboxController/releases'
 function global:au_SearchReplace {
     @{
         ".\tools\VERIFICATION.txt" = @{
-          "(?i)(Download x86:).*"   = "`${1} $($Latest.URL32)"
-          "(?i)(sha256 x86:).*"        = "`${1} $($Latest.Checksum32)"
+          "(?i)(Download x32:).*"   = "`${1} $($Latest.URL32)"
+          "(?i)(sha256 x32:).*"        = "`${1} $($Latest.Checksum32)"
           "(?i)(Download x64:).*"   = "`${1} $($Latest.URL64)"
           "(?i)(sha256 x64:).*"        = "`${1} $($Latest.Checksum64)"
         }
@@ -15,7 +15,7 @@ function global:au_SearchReplace {
 
 function global:au_BeforeUpdate {
     $Latest.FileType = $Latest.URL64 -split '\.' | select -last 1
-    Get-RemoteFiles -Purge -NoSuffix
+    Get-RemoteFiles -Purge -FileNameBase "Turn.Off.Xbox.360.Controller"
 }
 
 function global:au_GetLatest {
