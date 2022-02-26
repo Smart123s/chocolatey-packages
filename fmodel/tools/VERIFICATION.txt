@@ -1,0 +1,11 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Turn.Off.Xbox.360.Controller_x32.exe:
+Download x32: https://github.com/JulyIghor/TurnOffXboxController/releases/download/v1.2.0/Turn.Off.Xbox.360.Controller.32bit.v1.2.exe
+sha256 x32: 1D7E9B41A051FED98019D0853AF9F2FCD6B1C952F4F2FF2B7129D5AE781AE22B
+
+Turn.Off.Xbox.360.Controller_x64.exe:
+Download x64: https://github.com/JulyIghor/TurnOffXboxController/releases/download/v1.2.0/Turn.Off.Xbox.360.Controller.64bit.v1.2.exe
+sha256 x64: 87B77991E32EAADA217C65085EAE6E73BEB3D44F230AC892D024016FD628E274
