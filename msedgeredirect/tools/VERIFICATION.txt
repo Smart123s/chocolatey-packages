@@ -1,0 +1,11 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+MSEdgeRedirect_x32.exe:
+Download x32: https://github.com/rcmaehl/MSEdgeRedirect/releases/download/0.6.3.0/MSEdgeRedirect_x86.exe
+sha256 x32: 2C9489C91212019F4BA74834A1659A7E68A9F204F6A492CA66D2ED28E900105F
+
+MSEdgeRedirect_x64.exe:
+Download x64: https://github.com/rcmaehl/MSEdgeRedirect/releases/download/0.6.3.0/MSEdgeRedirect.exe
+sha256 x64: FDFF47E3974322E8040D8F69DACCE71219C68E0D00097C168A666FE5B69C17DA

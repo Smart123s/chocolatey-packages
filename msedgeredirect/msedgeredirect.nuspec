@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msedgeredirect</id>
+    <version>0.6.3.0</version>
+    <title>MSEdgeRedirect</title>
+    <authors>rcmaehl</authors>
+	  <owners>Smart123s</owners>
+    <projectUrl>https://msedgeredirect.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@ae90e2b65d33cc20be118b5e2f193ecfd72e8f25/icons/msedgeredirect.png</iconUrl>
+	  <copyright>GPL-3.0 License</copyright>
+    <licenseUrl>https://github.com/rcmaehl/MSEdgeRedirect/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/rcmaehl/MSEdgeRedirect</projectSourceUrl>
+    <docsUrl>https://github.com/rcmaehl/MSEdgeRedirect/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/rcmaehl/MSEdgeRedirect/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/msedgeredirect</packageSourceUrl>
+    <tags>edge bypass redirect bing search default browser</tags>
+    <summary>A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser </summary>
+    <description>#### MSEdgeRedirect
+A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser
+      
+This tool filters and passes the command line arguments of Microsoft Edge processes into your default browser instead of hooking into the `microsoft-edge:` handler, this should provide resiliency against future changes. Additionally, an Image File Execution Options mode is available to operate similarly to the Old EdgeDeflector. Additional modes are planned for future versions.
+      
+No Default App walkthrough or other steps, just set and forget.
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
