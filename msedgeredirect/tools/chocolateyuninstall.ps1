@@ -3,6 +3,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'MSEdgeRedirect'
   fileType      = 'EXE'
+  silentArgs    = "/uninstall"
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
@@ -10,7 +11,7 @@ $packageArgs = @{
 
 if ($key.Count -eq 1) {
   $key | % {
-    $packageArgs['file'] = "$($_.UninstallString)"
+    $packageArgs['file'] = "$($_.UninstallString.Replace(' /uninstall', ''))"
     Uninstall-ChocolateyPackage @packageArgs
   }
 } elseif ($key.Count -eq 0) {
