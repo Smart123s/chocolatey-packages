@@ -5,10 +5,10 @@
     <version>0.8.19</version>
     <title>Amulet Map Editor</title>
     <authors>Asval</authors>
-	  <owners>Smart123s</owners>
+    <owners>Smart123s</owners>
     <projectUrl>https://www.amuletmc.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@f2924358f67e74b516674416d85890f482f21c66/icons/amulet.png</iconUrl>
-	  <copyright>Copyright 2020-2021 by Ben Gothard, Naor Volkovich and James Clare</copyright>
+    <copyright>Copyright 2020-2021 by Ben Gothard, Naor Volkovich and James Clare</copyright>
     <licenseUrl>https://github.com/Amulet-Team/Amulet-Core/issues/155#issuecomment-879334592</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Amulet-Team/Amulet-Map-Editor</projectSourceUrl>
