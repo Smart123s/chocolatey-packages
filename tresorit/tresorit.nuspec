@@ -13,6 +13,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/tresorit</packageSourceUrl>
     <tags>cloud storage file share</tags>
+    <releaseNotes>https://support.tresorit.com/hc/en-us/articles/216468577-Release-Notes-Windows</releaseNotes>
     <summary>Tresorit is the ultra-secure place in the cloud to store, sync, and share files within your organization and with external partners.</summary>
     <description>#### Tresorit
 Tresorit is the ultra-secure place in the cloud to store, sync, and share files within your organization and with external partners.
