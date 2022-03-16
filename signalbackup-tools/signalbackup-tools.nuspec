@@ -5,9 +5,9 @@
     <version>2022.03.16</version>
     <title>signalbackup-tools</title>
     <authors>bepaald</authors>
-	  <owners>Smart123s</owners>
+    <owners>Smart123s</owners>
     <projectUrl>https://github.com/bepaald/signalbackup-tools</projectUrl>
-	  <copyright>2019-2021 Selwin van Dijk</copyright>
+    <copyright>2019-2021 Selwin van Dijk</copyright>
     <licenseUrl>https://github.com/bepaald/signalbackup-tools/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/bepaald/signalbackup-tools</projectSourceUrl>

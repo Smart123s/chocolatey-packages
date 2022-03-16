@@ -5,10 +5,10 @@
     <version>5.4.4</version>
     <title>Geekbench</title>
     <authors>Primate Labs Inc.</authors>
-	  <owners>Smart123s</owners>
+    <owners>Smart123s</owners>
     <projectUrl>https://www.geekbench.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@b9d5928d0b035433788c6e9d91883f9fe00bbf16/icons/geekbench5.png</iconUrl>
-	  <copyright>Copyright © 2004-2022 Primate Labs Inc.</copyright>
+    <copyright>Copyright © 2004-2022 Primate Labs Inc.</copyright>
     <licenseUrl>https://www.primatelabs.com/legal/terms-of-use.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/geekbench</packageSourceUrl>
@@ -20,8 +20,8 @@ This is just a metapackage for the latest Geekbench release(currently Geekbench 
 #### Geekbench
 
 Geekbench is a cross-platform benchmark that measures your system's performance with the press of a button.</description>
-  <dependencies>
-    <dependency id="geekbench5" version="[5.4.4]" />
-  </dependencies>
+    <dependencies>
+      <dependency id="geekbench5" version="[5.4.4]" />
+    </dependencies>
   </metadata>
 </package>

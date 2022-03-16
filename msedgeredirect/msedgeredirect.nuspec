@@ -5,10 +5,10 @@
     <version>0.6.3.0</version>
     <title>MSEdgeRedirect</title>
     <authors>rcmaehl</authors>
-	  <owners>Smart123s</owners>
+    <owners>Smart123s</owners>
     <projectUrl>https://msedgeredirect.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@ae90e2b65d33cc20be118b5e2f193ecfd72e8f25/icons/msedgeredirect.png</iconUrl>
-	  <copyright>GPL-3.0 License</copyright>
+    <copyright>GPL-3.0 License</copyright>
     <licenseUrl>https://github.com/rcmaehl/MSEdgeRedirect/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/rcmaehl/MSEdgeRedirect</projectSourceUrl>
