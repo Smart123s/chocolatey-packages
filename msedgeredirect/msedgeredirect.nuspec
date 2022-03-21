@@ -8,7 +8,7 @@
     <owners>Smart123s</owners>
     <projectUrl>https://msedgeredirect.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@ae90e2b65d33cc20be118b5e2f193ecfd72e8f25/icons/msedgeredirect.png</iconUrl>
-    <copyright>GPL-3.0 License</copyright>
+    <copyright>© 2021 MSEdgeRedirect Developers</copyright>
     <licenseUrl>https://github.com/rcmaehl/MSEdgeRedirect/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/rcmaehl/MSEdgeRedirect</projectSourceUrl>
@@ -23,6 +23,10 @@ A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Brows
 This tool filters and passes the command line arguments of Microsoft Edge processes into your default browser instead of hooking into the `microsoft-edge:` handler, this should provide resiliency against future changes. Additionally, an Image File Execution Options mode is available to operate similarly to the Old EdgeDeflector. Additional modes are planned for future versions.
       
 No Default App walkthrough or other steps, just set and forget.
+
+#### False positive virus detections
+
+See discussion at https://github.com/rcmaehl/MSEdgeRedirect/issues/37
 
 #### Package Parameters:
 

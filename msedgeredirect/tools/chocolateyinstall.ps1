@@ -2,13 +2,6 @@
 $toolsDir   =	"$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $configFile = Join-Path $toolsDir 'Setup.ini'
 
-# THIS IS NOT A PORTABLE PACKAGE!!!!
-# CHECK WHAT THE INSTALLER DOES!!!
-# IT MIGHT HANDLE DESKTOP ICONS AS WELL
-# ALSO CHECK UNINSTALL SCRIPT
-#   FOR SHORTCUT HANDLING
-#   AND PROPER UNINSTALLATION
-
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'EXE'
