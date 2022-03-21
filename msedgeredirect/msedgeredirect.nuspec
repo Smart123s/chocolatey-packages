@@ -31,11 +31,7 @@ See discussion at https://github.com/rcmaehl/MSEdgeRedirect/issues/37
 #### Package Parameters:
 
  - `/NoDesktopShortcut` Do not create Desktop Shortcut
- - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
-
-#### Package updates
-   
-New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut</description>
   </metadata>
   <files>
     <file src="tools/**" target="tools" />
