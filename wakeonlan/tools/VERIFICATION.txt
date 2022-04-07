@@ -1,0 +1,13 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download the zip file from the GitHub releases page, and extract it.
+
+WakeOnLAN_v0.3_windows_x86.zip:
+Download: https://github.com/GramThanos/WakeOnLAN/releases/download/v0.3/WakeOnLAN_v0.3_windows_x86.zip
+sha256: 236b95366387642442a35310206efcf3fb1ea685a799f5d20ca0e706dba23d1b
+
+WakeOnLAN.exe:
+Source: extracted from the zip file above
+sha256: 48af3665e1db83b25bb9def305435300152286030f5aee711f843449f94f3d35
