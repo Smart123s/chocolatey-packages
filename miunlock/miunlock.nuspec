@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>miunlock</id>
-    <version>5.5.224.24</version>
+    <version>6.5.224.28</version>
     <title>Mi Unlock</title>
     <authors>Xiaomi</authors>
     <owners>Smart123s</owners>

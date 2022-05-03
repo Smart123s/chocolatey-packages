@@ -1,5 +1,5 @@
-$ErrorActionPreference = 'Stop'
-Uninstall-ChocolateyZipPackage $env:ChocolateyPackageName 'miflash_unlock-en-5.5.224.24.zip'
+﻿$ErrorActionPreference = 'Stop'
+Uninstall-ChocolateyZipPackage $env:ChocolateyPackageName 'miflash_unlock-en-6.5.224.28.zip'
 
 # Remove start menu shortcut
 $programsPath = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\"

@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://miuirom.xiaomi.com/rom/u1106245679/5.5.224.24/miflash_unlock-en-5.5.224.24.zip'
+$url        = 'https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip'
 $PackageParameters = Get-PackageParameters
 
 ### PARAMETERS
@@ -15,14 +15,14 @@ $packageArgs = @{
   UnzipLocation = $targetDir = $installDir
   
   url           = $url
-  checksum      = 'B88807222879891BCCD2A74FFA10C220F3C51431B794EC94B19646EF0A9E1971'
+  checksum      = 'f32ebf00a80c573b3343412ddd053c6327b613c489cddf91de113883e5346794'
   checksumType  = 'sha256'
 
 }
 
 Install-ChocolateyZipPackage @packageArgs
 
-$targetPath = Join-Path "$installDir" "batch_unlock.exe"
+$targetPath = Join-Path "$installDir" "miflash_unlock.exe"
 
 # Add StartMenu shortcut
 If (-Not( $PackageParameters.NoStartMenuShortcut )) {
