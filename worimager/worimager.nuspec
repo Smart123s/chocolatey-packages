@@ -6,13 +6,13 @@
     <title>Windows on Raspberry imager</title>
     <authors>Mario Bălănică</authors>
     <owners>Smart123s</owners>
-    <projectUrl>https://www.worproject.ml/</projectUrl>
+    <projectUrl>https://www.worproject.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@b9d5928d0b035433788c6e9d91883f9fe00bbf16/icons/worimager.svg</iconUrl>
     <copyright>Copyright © 2018-2021 Mario Bălănică. All Rights Reserved.</copyright>
-    <docsUrl>https://www.worproject.ml/guides/how-to-install/from-windows</docsUrl>
+    <docsUrl>https://www.worproject.com/guides/how-to-install/from-windows</docsUrl>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/worimager</packageSourceUrl>
     <tags>raspberry-pi raspberry pi image imager sd flash windows arm</tags>
-    <releaseNotes>https://www.worproject.ml/dldserv/wor/changelog.htm</releaseNotes>
+    <releaseNotes>https://www.worproject.com/dldserv/wor/changelog.htm</releaseNotes>
     <summary>Flash Windows images to an SD Card, that can be used in a Raspberry Pi.</summary>
     <description>## Package Parameters
 Command-line options for installer configuration:

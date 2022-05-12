@@ -1,6 +1,6 @@
 Import-Module AU
 
-$releases = 'https://www.worproject.ml/downloads/'
+$releases = 'https://www.worproject.com/downloads/'
 
 function global:au_SearchReplace {
     @{
