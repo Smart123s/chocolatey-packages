@@ -1,4 +1,5 @@
 Import-Module AU
+Add-Type -AssemblyName System.Web
 
 $releases = 'https://www.worproject.com/downloads/'
 
