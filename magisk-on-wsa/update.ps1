@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://github.com/LSPosed/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++'
+$releases = 'https://github.com/yujincheng08/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++'
 
 function global:au_SearchReplace {
     @{
@@ -22,7 +22,7 @@ function global:au_GetLatest {
     $url64 = $download_page.links | ? href -match 'runs' | % href | select -First 1
     $version = ($url64 -split '/' | select -Last 1)
 
-    $releases = "https://nightly.link/LSPosed/MagiskOnWSA/actions/runs/" + $version
+    $releases = "https://nightly.link/yujincheng08/MagiskOnWSA/actions/runs/" + $version
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url64 = $download_page.links | ? href -match 'x64' | % href | select -First 1 -Skip 1
 

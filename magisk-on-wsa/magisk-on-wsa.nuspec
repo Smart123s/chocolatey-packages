@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>magisk-on-wsa</id>
-    <version>1.218700.4802</version>
+    <version>1.235992.9197</version>
     <title>Magisk on WSA (with Google Apps)</title>
     <authors>yujincheng08</authors>
     <owners>Smart123s</owners>
@@ -31,6 +31,10 @@
 - Update to new version while preserving data with one-click script
 - Merged all language packs
 - Support managing start menu icons (manually installing [WSAHelper](https://github.com/LSPosed/WSAHelper/releases/latest) to use this feature)
+
+### Build sources
+
+Downloading artifacts from GitHub without authentication is not allowed, so a third party redirector, called nightly.link generates the download links for the package. The files are downloaded directly from GitHub's servers. Since LSposed/MagiskOnWSA has deleted all of its builds (5/21/2022), releases are now downloaded from the lead dev's fork.
 
 #### Package updates
    
