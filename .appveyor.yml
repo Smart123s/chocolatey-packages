@@ -6,7 +6,7 @@ max_jobs: 1
 #clone_depth: 5
 branches:
   only:
-  - master
+  - own
 #build:
 #  verbosity: minimal
 
@@ -25,14 +25,17 @@ environment:
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id: be5bc050a10ff75f6fa0b8efe0cd35f6
+  gist_id: fb0b2ba30d43b80a15d70b0c19e2ca1b
 
   # Force test: gist id for test results
   gist_id_test: a3104f605bb45fa44d16621d5c2681b6
 
-  # Chocolatey API key - to push updated packages
+  # Cloudsmith repository
+  au_PushUrl: https://nuget.cloudsmith.io/smart123s/choco/v2
+
+  # Cloudsmith API key - to push updated packages
   api_key:
-    secure: 6DoEHvjM6yjKSeAh24ODgvVL0D70SpmlgineHGtI3E9I6vQmNjkVvaloyYnxEpcx # https://ci.appveyor.com/tools/encrypt
+    secure: rkxaSvBHfIS9GWWi5w2T1pg3YRlv02SKLtA+hJ1cDE5ilqhtGwW3ZtgVkA5Hh6D2 # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
