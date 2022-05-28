@@ -1,6 +1,6 @@
 # Chocolatey package sources for the [Chocolatey Community Repository](https://chocolatey.org/packages)
 
-[![](https://ci.appveyor.com/api/projects/status/github/Smart123s/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Smart123s/chocolatey-packages)
+[![](https://ci.appveyor.com/api/projects/status/github/Smart123s/chocolatey-packages?branch=master&svg=true)](https://ci.appveyor.com/project/Smart123s/chocolatey-packages/branch/master)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [Update status](https://gist.github.com/Smart123s/be5bc050a10ff75f6fa0b8efe0cd35f6)
 [![](http://transparent-favicon.info/favicon.ico)](#)
