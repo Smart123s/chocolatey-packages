@@ -49,16 +49,10 @@ $Options = [ordered]@{
         }
     }
 
-    History = @{
-        Lines = 120                                         #Number of lines to show
-        Github_UserRepo = $Env:github_user_repo             #User repo to be link to commits
-        Path = "$PSScriptRoot\Update-History.md"            #Path where to save history
-    }
-
     Gist = @{
         Id     = $Env:gist_id                               #Your gist id; leave empty for new private or anonymous gist
         ApiKey = $Env:github_api_key                        #Your github api key - if empty anoymous gist is created
-        Path   = "$PSScriptRoot\Update-AUPackages.md", "$PSScriptRoot\Update-History.md"       #List of files to add to the gist
+        Path   = "$PSScriptRoot\Update-AUPackages.md"       #List of files to add to the gist
     }
 
     Git = @{
