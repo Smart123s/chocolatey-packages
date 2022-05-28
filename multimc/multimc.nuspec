@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>multimc</id>
+    <version>0.6.13</version>
+    <packageSourceUrl>https://github.com/sorashi/chocolatey-packages</packageSourceUrl>
+    <owners>Anthony Mastrean, Sorashi</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>MultiMC 5</title>
+    <authors>MultiMC Contributors</authors>
+    <projectUrl>https://multimc.org/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/MultiMC/MultiMC5/5c921589f1db2acb9691b3077fddf6a9d7336693/application/resources/multimc/128x128/instances/infinity.png</iconUrl>
+    <copyright>© 2013-2020 MultiMC Contributors</copyright>
+    <licenseUrl>https://github.com/MultiMC/MultiMC5#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/MultiMC/MultiMC5</projectSourceUrl>
+    <docsUrl>https://github.com/MultiMC/MultiMC5/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/MultiMC/MultiMC5/issues</bugTrackerUrl>
+    <tags>minecraft mod forge pack</tags>
+    <summary>Manage Minecraft instances with ease</summary>
+    <description>
+      MultiMC is a free, open source launcher for Minecraft, managed by
+      @Forkk13, @peterixxx and @drayshak. It allows you to have multiple,
+      separate instances of Minecraft (each with their own mods, texture packs,
+      saves, etc) and helps you manage them and their associated options with a
+      simple interface.
+    </description>
+    <!-- =============================== -->      
+    <dependencies>
+    <!-- this dependency is for convenience - Java is not required by the launcher itself,
+         but it's required for Minecraft and MultiMC therefore prompts the user for Java location on startup,
+         therefore it's better to ensure a JRE installation -->
+      <dependency id="javaruntime" version="8.0.231" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
