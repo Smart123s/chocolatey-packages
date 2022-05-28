@@ -1,4 +1,4 @@
-# Chocolatey package sources for the [Chocolatey Community Repository](https://chocolatey.org/packages)
+# Chocolatey package sources for my [Own Chocolatey Repository](https://cloudsmith.io/~smart123s/repos/choco/packages/)
 
 [![](https://ci.appveyor.com/api/projects/status/github/Smart123s/chocolatey-packages?branch=own&svg=true)](https://ci.appveyor.com/project/Smart123s/chocolatey-packages/branch/own)
 [![](http://transparent-favicon.info/favicon.ico)](#)
