@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ultimmc</id>
+    <version>0.6.13</version>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/own/ultimmc</packageSourceUrl>
+    <owners>Smart123s</owners>
+    <title>UltimMC</title>
+    <authors>Zakhar Afonin, MultiMC Contributors</authors>
+    <projectUrl>https://github.com/AfoninZ/UltimMC</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/MultiMC/MultiMC5/5c921589f1db2acb9691b3077fddf6a9d7336693/application/resources/multimc/128x128/instances/infinity.png</iconUrl>
+    <copyright>© 2013-2022 MultiMC Contributors</copyright>
+    <licenseUrl>https://github.com/AfoninZ/UltimMC#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/AfoninZ/UltimMC</projectSourceUrl>
+    <docsUrl>https://github.com/MultiMC/MultiMC5/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/AfoninZ/UltimMC/issues</bugTrackerUrl>
+    <tags>minecraft mod forge pack offline game</tags>
+    <summary>Cracked MultiMC launcher. Not related to original developers</summary>
+    <description>## **This is a "cracked" version of a popular Minecraft launcher that lets you play the game without a Mojang account.**
+
+## This software is not related to MultiMC developers and provided without any warranty. Please don't bomb MultiMC developers if something gets wrong using this launcher.
+      
+# Details about the ORIGINAL launcher below:
+
+MultiMC is a free, open source launcher for Minecraft, managed by @Forkk13, @peterixxx and @drayshak. It allows you to have multiple, separate instances of Minecraft (each with their own mods, texture packs, saves, etc) and helps you manage them and their associated options with a simple interface.</description>  
+    <dependencies>
+      <dependency id="javaruntime" version="8.0.231" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
