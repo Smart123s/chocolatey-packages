@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ultimmc</id>
-    <version>0.6.13</version>
+    <version>1.237415.5324</version>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/own/ultimmc</packageSourceUrl>
     <owners>Smart123s</owners>
     <title>UltimMC</title>
