@@ -2,7 +2,7 @@
 
 [![](https://ci.appveyor.com/api/projects/status/github/Smart123s/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Smart123s/chocolatey-packages)
 [![](http://transparent-favicon.info/favicon.ico)](#)
-[Update status](https://gist.github.com/Smart123s/be5bc050a10ff75f6fa0b8efe0cd35f6)
+[Update status](https://gist.github.com/Smart123s/fb0b2ba30d43b80a15d70b0c19e2ca1b)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/Smart123s](https://chocolatey.org/profiles/Smart123s)
 
