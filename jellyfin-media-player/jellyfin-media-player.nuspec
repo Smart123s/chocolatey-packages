@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jellyfin-media-player</id>
+    <version>1.6.1</version>
+    <title>Jellyfin Media Player</title>
+    <authors>Jellyfin</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://jellyfin.org/clients/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/jellyfin/jellyfin-media-player@da6f4878357ba60a4e36883c0b3368840358a372/resources/images/icon.png</iconUrl>
+    <copyright>GPL-2.0 License</copyright>
+    <licenseUrl>https://github.com/jellyfin/jellyfin-media-player/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jellyfin/jellyfin-media-player</projectSourceUrl>
+    <docsUrl>https://github.com/jellyfin/jellyfin-media-player/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/jellyfin/jellyfin-media-player/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/jellyfin-media-player</packageSourceUrl>
+    <tags>jellyfin media storage player</tags>
+    <summary>Jellyfin Desktop Client based on Plex Media Player</summary>
+    <description># Jellyfin Media Player
+
+Desktop client using jellyfin-web with embedded MPV player. Supports Windows, Mac OS,
+and Linux. Media plays within the same window using the jellyfin-web interface unlike
+Jellyfin Desktop. Supports audio passthrough. Based on [Plex Media Player](https://github.com/plexinc/plex-media-player).
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
