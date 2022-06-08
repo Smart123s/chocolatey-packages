@@ -1,6 +1,10 @@
 import-module au
 
-$releases = 'https://github.com/yujincheng08/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++'
+$releases = @(
+    'https://github.com/LSPosed/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
+    'https://github.com/yujincheng08/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
+    'https://github.com/Howard20181/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++'
+)
 
 function global:au_SearchReplace {
     @{
@@ -17,12 +21,20 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $version = 0;
 
-    $url64 = $download_page.links | ? href -match 'runs' | % href | select -First 1
-    $version = ($url64 -split '/' | select -Last 1)
+    foreach ($release in $releases) {
+        $download_page = Invoke-WebRequest -Uri $release -UseBasicParsing
 
-    $releases = "https://nightly.link/yujincheng08/MagiskOnWSA/actions/runs/" + $version
+        $url64 = $download_page.links | ? href -match 'runs' | % href | select -First 1
+        $ver = ($url64 -split '/' | select -Last 1)
+        if ($ver -gt $version) {
+            $version = $ver;
+            $owner = ($url64 -split '/' | select -First 1 -Skip 1)
+        }
+    }
+
+    $releases = "https://nightly.link/" + $owner + "/MagiskOnWSA/actions/runs/" + $version
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url64 = $download_page.links | ? href -match 'x64' | % href | select -First 1 -Skip 1
 
