@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $toolsDir
 
-  url64         = 'https://nightly.link/yujincheng08/MagiskOnWSA/actions/runs/2359929197/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly.zip'
-  checksum64    = '2258a4b60684494a186f988c3e5a183c6d3eaf0eb3a6f654d1ab88f673a5503d'
+  url64         = 'https://nightly.link/Howard20181/MagiskOnWSA/actions/runs/2453973592/WSA-with-magisk-GApps-pico_2204.40000.19.0_x64_Release-Nightly.zip'
+  checksum64    = '54fea315c449a2ffc9e32f1f5e5df57a94ded053b321a418b5119f262a4adec5'
 
   checksumType  = 'sha256'
 
