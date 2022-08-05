@@ -1,8 +1,9 @@
 import-module au
 
 $releases = @(
-    'https://github.com/LSPosed/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
-    'https://github.com/yujincheng08/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
+    # Main repo throws 404 at nightly.link. Maybe GitHub is blocking API access?
+    # 'https://github.com/LSPosed/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
+    'https://github.com/Dr-TSNG/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
     'https://github.com/Howard20181/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++'
 )
 
