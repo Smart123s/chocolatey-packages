@@ -1,11 +1,5 @@
 import-module au
-
-$releases = @(
-    # Main repo throws 404 at nightly.link. Maybe GitHub is blocking API access?
-    # 'https://github.com/LSPosed/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
-    'https://github.com/Dr-TSNG/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++',
-    'https://github.com/Howard20181/MagiskOnWSA/actions?query=event%3Aworkflow_dispatch+is%3Asuccess++'
-)
+. $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {
     @{
@@ -22,27 +16,23 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $version = 0;
+    $download_page = Get-GitHubLatestReleaseLinks -User "wxy1343" -Repository "MagiskOnWSALocal"
 
-    foreach ($release in $releases) {
-        $download_page = Invoke-WebRequest -Uri $release -UseBasicParsing
+    $url = $download_page.links | ? href -match 'x64' | % href | select -First 1
 
-        $url64 = $download_page.links | ? href -match 'runs' | % href | select -First 1
-        $ver = ($url64 -split '/' | select -Last 1)
-        if ($ver -gt $version) {
-            $version = $ver;
-            $owner = ($url64 -split '/' | select -First 1 -Skip 1)
-        }
-    }
-
-    $releases = "https://nightly.link/" + $owner + "/MagiskOnWSA/actions/runs/" + $version
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $url64 = $download_page.links | ? href -match 'x64' | % href | select -First 1 -Skip 1
+    $version = "$( $url -split '_' | select -Last 1 -Skip 2 )"
 
     @{
-        URL64   = $url64
-        Version = '1.' + $version.Insert(6, ".")
+       URL64   = 'https://github.com' + $url
+       Version = $version
     }
+}
+
+try {
+    update -ChecksumFor none
+} catch {
+    $ignore = 'Unable to connect to the remote server'
+    if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
 }
 
 update -ChecksumFor none

@@ -1,12 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$tempToolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir       = "$(Get-ToolsLocation)\WSA"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  UnzipLocation = $toolsDir
+  fileFullPath  = "$tempToolsDir\WSA-with-magisk.7z"
 
-  url64         = 'https://nightly.link/Dr-TSNG/MagiskOnWSA/actions/runs/2744101974/WSA-with-magisk-NoGApps_2204.40000.20.0_x64_Release-Nightly.zip'
-  checksum64    = '8508f0f409ed5705988b991d62d5ea9840efdfabd9cccdab86d67fe4f7151a95'
+  url64         = 'https://github.com/wxy1343/MagiskOnWSALocal/releases/download/0701d30/WSA-with-magisk-stable-OpenGApps-pico_2207.40000.8.0_x64_Release-Nightly.7z'
+  checksum64    = 'E62BD4690E31C471F2FDD7837476E21894CCDA79429B5C0C9A47630D7A7878FA'
 
   checksumType  = 'sha256'
 
@@ -18,8 +19,20 @@ if ( [Environment]::OSVersion.Version.Build -lt 22000) {
   throw
 }
 
-Install-ChocolateyZipPackage @packageArgs
+Get-ChocolateyWebFile @packageArgs
 
+# Extract downloaded '7z' archive
+7z x -o"$tempToolsDir" "$tempToolsDir\WSA-with-magisk.7z"
+
+# Move extarcted files to a persisent location
+$directoryName = ($packageArgs.url64 -Split '/' | Select -Last 1).Replace('.7z', '')
+New-Item -ItemType Directory -Force -Path "$tempToolsDir\$directoryName"
+Move-Item "$tempToolsDir\$directoryName" $toolsDir -force
+
+# Remove leftover archive to save space
+Remove-Item "$tempToolsDir\WSA-with-magisk.7z"
+
+# Get name of install script
 $installScript = Join-Path $toolsDir "Install.ps1"
 
 # Make installer silent

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>magisk-on-wsa</id>
-    <version>1.274410.1974</version>
+    <version>2207.40000.8.0</version>
     <title>Magisk on WSA (with Google Apps)</title>
     <authors>yujincheng08</authors>
     <owners>Smart123s</owners>
@@ -34,12 +34,14 @@
 
 ### Build sources
 
-Downloading artifacts from GitHub without authentication is not allowed, so a third party redirector, called nightly.link generates the download links for the package. The files are downloaded directly from GitHub's servers.
-Builds created in the main LSposed/MagiskOnWSA repo can be outdated, so some developer's forks are also used as a build source. These devs are members of the LSPosed organization on GitHub. For details, see `update.ps1`, as described in the next section.
+LSPosed no longer provides builds via GitHub Actions in their official repository (as their original repository was shut down due to abousng GitHub Actions), so a reliable fork by wxy1343 is used instead. Releases are built using GitHub actions so they couldn't be altered before publishing.
 
 #### Package updates
 
 New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+    <dependencies>
+      <dependency id="7zip"/>
+    </dependencies>
   </metadata>
   <files>
     <file src="tools/**" target="tools" />
