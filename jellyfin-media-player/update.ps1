@@ -1,6 +1,5 @@
 import-module au
-
-$releases = 'https://github.com/jellyfin/jellyfin-media-player/releases/'
+. $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {
     @{
@@ -14,7 +13,7 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Get-GitHubLatestReleaseLinks -User "jellyfin" -Repository "jellyfin-media-player"
 
     $url32 = $download_page.links | ? href -match '.windows-x86.exe$' | % href | select -First 1
     $url64 = $download_page.links | ? href -match '.windows-x64.exe$' | % href | select -First 1

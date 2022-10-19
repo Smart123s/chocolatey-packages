@@ -1,6 +1,5 @@
 import-module au
-
-$releases = 'https://github.com/bepaald/signalbackup-tools/releases'
+. $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {
     @{
@@ -17,7 +16,7 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Get-GitHubLatestReleaseLinks -User "bepaald" -Repository "signalbackup-tools"
 
     $url = $download_page.links | ? href -match '.exe$' | % href | select -First 1
 

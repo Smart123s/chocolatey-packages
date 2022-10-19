@@ -1,6 +1,5 @@
 import-module au
-
-$releases = 'https://github.com/JulyIghor/TurnOffXboxController/releases'
+. $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {
     @{
@@ -19,7 +18,7 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Get-GitHubLatestReleaseLinks -User "JulyIghor" -Repository "TurnOffXboxController"
 
     $url32 = $download_page.links | ? href -match '.exe$' | % href | select -First 1
     $url64 = $download_page.links | ? href -match '.exe$' | % href | select -First 1 -Skip 1

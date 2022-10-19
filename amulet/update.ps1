@@ -1,6 +1,5 @@
 import-module au
-
-$releases = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/latest'
+. $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {
     @{
@@ -20,7 +19,7 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Get-GitHubLatestReleaseLinks -User "Amulet-Team" -Repository "Amulet-Map-Editor"
 
     $url32 = $download_page.links | ? href -match '.zip$' | % href | select -First 1 -Skip 1
     $url64 = $download_page.links | ? href -match '.zip$' | % href | select -First 1
