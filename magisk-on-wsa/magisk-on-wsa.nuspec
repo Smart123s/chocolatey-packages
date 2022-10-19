@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>magisk-on-wsa</id>
+    <version>1.274410.1974</version>
+    <title>Magisk on WSA (with Google Apps)</title>
+    <authors>yujincheng08</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://github.com/LSPosed/MagiskOnWSA</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@61bd736b15e2f9a1438bc70a3b4c4efc506e7c33/icons/magisk-on-wsa.png</iconUrl>
+    <copyright>Copyright 2021-2022 MagiskOnWSA contributors</copyright>
+    <licenseUrl>https://github.com/LSPosed/MagiskOnWSA/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/LSPosed/MagiskOnWSA</projectSourceUrl>
+    <docsUrl>https://github.com/LSPosed/MagiskOnWSA/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/LSPosed/MagiskOnWSA/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/magisk-on-wsa</packageSourceUrl>
+    <tags>magisk android google play store root</tags>
+    <summary>Integrate Magisk root and Google Apps (OpenGApps) into WSA (Windows Subsystem for Android)</summary>
+    <description># Magisk on WSA (with Google Apps)
+
+## Features
+- Integrate Magisk and OpenGApps in a few clicks within minutes
+- No Linux environment required for integration
+- Keep each build up to date
+- Support both ARM64 and x64
+- Support all OpenGApps variants except for aroma (aroma does not support x86_64, please use super instead)
+- Fix external storage access of DocumentUI
+- Unattended installation
+- Automatically activates developers mode in Windows 11
+- Update to new version while preserving data with one-click script
+- Merged all language packs
+- Support managing start menu icons (manually installing [WSAHelper](https://github.com/LSPosed/WSAHelper/releases/latest) to use this feature)
+
+### Build sources
+
+Downloading artifacts from GitHub without authentication is not allowed, so a third party redirector, called nightly.link generates the download links for the package. The files are downloaded directly from GitHub's servers.
+Builds created in the main LSposed/MagiskOnWSA repo can be outdated, so some developer's forks are also used as a build source. These devs are members of the LSPosed organization on GitHub. For details, see `update.ps1`, as described in the next section.
+
+#### Package updates
+
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
