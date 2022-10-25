@@ -4,16 +4,16 @@
     <id>magisk-on-wsa</id>
     <version>2207.40000.8.0</version>
     <title>Magisk on WSA (with Google Apps)</title>
-    <authors>yujincheng08</authors>
+    <authors>LSPosed</authors>
     <owners>Smart123s</owners>
-    <projectUrl>https://github.com/LSPosed/MagiskOnWSA</projectUrl>
+    <projectUrl>https://github.com/LSPosed/MagiskOnWSALocal</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@61bd736b15e2f9a1438bc70a3b4c4efc506e7c33/icons/magisk-on-wsa.png</iconUrl>
     <copyright>Copyright 2021-2022 MagiskOnWSA contributors</copyright>
-    <licenseUrl>https://github.com/LSPosed/MagiskOnWSA/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/LSPosed/MagiskOnWSALocal/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/LSPosed/MagiskOnWSA</projectSourceUrl>
-    <docsUrl>https://github.com/LSPosed/MagiskOnWSA/blob/main/README.md</docsUrl>
-    <bugTrackerUrl>https://github.com/LSPosed/MagiskOnWSA/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/LSPosed/MagiskOnWSALocal</projectSourceUrl>
+    <docsUrl>https://github.com/LSPosed/MagiskOnWSALocal/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/LSPosed/MagiskOnWSALocal/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/magisk-on-wsa</packageSourceUrl>
     <tags>magisk android google play store root</tags>
     <summary>Integrate Magisk root and Google Apps (OpenGApps) into WSA (Windows Subsystem for Android)</summary>
