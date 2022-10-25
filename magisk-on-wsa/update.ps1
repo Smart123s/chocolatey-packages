@@ -2,10 +2,12 @@ import-module au
 . $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {
+    $folderName = ($Latest.URL64 -Split '/' | Select -Last 1).Replace('.7z', '')
     @{
         "tools\chocolateyinstall.ps1" = @{
-            "(url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"          
-            "(checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+            "(SpecificFolder\s*=\s*)('.*')" = "`$1'$($folderName)'"
+            "(url64\s*=\s*)('.*')"          = "`$1'$($Latest.URL64)'"
+            "(checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
 		}
     }
 }
