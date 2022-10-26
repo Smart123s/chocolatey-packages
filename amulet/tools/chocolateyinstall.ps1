@@ -6,11 +6,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $toolsDir
   
-  url32         = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.1/Amulet-v0.10.1-Windows-x86.zip'
-  checksum32    = 'b22866dca585d7e100d4d08e92045ec1e0c8495a5e43d451c3229a34cd78bfcc'
+  url32         = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.2/Amulet-v0.10.2-Windows-x86.zip'
+  checksum32    = '72ec064a55110a6e52af373d9b738f521582ab2022c331baa9f88114ce7c8c5f'
 
-  url64         = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.1/Amulet-v0.10.1-Windows-x64.zip'
-  checksum64    = '3f848f002dfd459872588edc0da1ad13072385bd87e724fe6fcd5b45d5f67c18'
+  url64         = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.2/Amulet-v0.10.2-Windows-x64.zip'
+  checksum64    = '4444ddf856e054dc045806f5edb0ea25ae54d748017ac9e8edecd87af0fdca57'
 
   checksumType  = 'sha256'
 
