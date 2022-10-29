@@ -6,7 +6,6 @@ $toolsDir       = "$(Get-ToolsLocation)\WSA"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation  = "$tempToolsDir"
-  SpecificFolder = 'WSA-with-magisk-stable-OpenGApps-pico_2207.40000.8.0_x64_Release-Nightly\*'
 
   url64         = 'https://github.com/wxy1343/MagiskOnWSALocal/releases/download/0701d30/WSA-with-magisk-stable-OpenGApps-pico_2207.40000.8.0_x64_Release-Nightly.7z'
   checksum64    = 'E62BD4690E31C471F2FDD7837476E21894CCDA79429B5C0C9A47630D7A7878FA'
