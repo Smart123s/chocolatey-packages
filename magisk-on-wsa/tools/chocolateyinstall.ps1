@@ -1,11 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$tempToolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$toolsDir       = "$(Get-ToolsLocation)\WSA"
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  UnzipLocation  = "$tempToolsDir"
+  UnzipLocation  = "$toolsDir"
 
   url64         = 'https://github.com/wxy1343/MagiskOnWSALocal/releases/download/0701d30/WSA-with-magisk-stable-OpenGApps-pico_2207.40000.8.0_x64_Release-Nightly.7z'
   checksum64    = 'E62BD4690E31C471F2FDD7837476E21894CCDA79429B5C0C9A47630D7A7878FA'
@@ -22,15 +21,11 @@ if ( [Environment]::OSVersion.Version.Build -lt 22000) {
 
 Install-ChocolateyZipPackage @packageArgs
 
-"$tempToolsDir\WSA-with-magisk.7z"
-
-# Move extarcted files to a persisent location
-$directoryName = ($packageArgs.url64 -Split '/' | Select -Last 1).Replace('.7z', '')
-New-Item -ItemType Directory -Force -Path "$tempToolsDir\$directoryName"
-Move-Item "$tempToolsDir\$directoryName" $toolsDir -force
+# Get the name of the extracted folder
+$folderName = ($packageArgs.url64 -Split '/' | Select -Last 1).Replace('.7z', '')
 
 # Get name of install script
-$installScript = Join-Path $toolsDir "Install.ps1"
+$installScript = Join-Path "$toolsDir\$folderName" "Install.ps1"
 
 # Make installer silent
 (Get-Content $installScript).Replace('$null = $Host.UI.RawUI.ReadKey' + "('NoEcho,IncludeKeyDown')", '') `
