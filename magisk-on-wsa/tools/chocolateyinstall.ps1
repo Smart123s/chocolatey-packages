@@ -33,4 +33,4 @@ $installScript = Join-Path "$toolsDir\$folderName" "Install.ps1"
   -Replace 'Start-Process "wsa://com.android.vending"', '' `
   -Replace 'Clear-Host', '' | Set-Content $installScript
 
-Start-ChocolateyProcessAsAdmin -WorkingDirectory "$toolsDir" "$installScript"
+Start-ChocolateyProcessAsAdmin -WorkingDirectory "$toolsDir\$folderName" "$installScript"
