@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mullvad-app</id>
+    <version>2022.5</version>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/mullvad-app/</packageSourceUrl>
+    <owners>Smart123s</owners>
+    <title>Mullvad app</title>
+    <authors>Amagicom AB</authors>
+    <projectUrl>https://mullvad.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@daff248d0f29c6d27f50f41b6256bb0a4c5f99f1/icons/mullvad-app.png</iconUrl>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/mullvad/mullvadvpn-app</projectSourceUrl>
+    <docsUrl>https://mullvad.net/en/help/</docsUrl>
+    <bugTrackerUrl>https://github.com/mullvad/mullvadvpn-app/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/mullvad/mullvadvpn-app/blob/master/CHANGELOG.md</releaseNotes>
+    <tags>vpn</tags>
+    <summary>The Mullvad VPN client app</summary>
+    <description><![CDATA[
+The Mullvad VPN client app.
+
+Requires an account number obtainable from [Mullvad's website]. A three hour
+trial is provided when creating a new account. The account can be paid for
+using anonymous methods such as cash and cryptocurrency. According to the
+[VPN policy], this VPN doesn't keep logs.
+
+[Mullvad's website]: https://mullvad.net/en/account/create/
+[VPN policy]: https://mullvad.net/en/guides/no-logging-data-policy/
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools"/>
+  </files>
+</package>
