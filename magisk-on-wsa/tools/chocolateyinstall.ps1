@@ -6,8 +6,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation  = "$toolsDir"
 
-  url64         = 'https://github.com/wxy1343/MagiskOnWSALocal/releases/download/0701d30/WSA-with-magisk-stable-OpenGApps-pico_2207.40000.8.0_x64_Release-Nightly.7z'
-  checksum64    = 'E62BD4690E31C471F2FDD7837476E21894CCDA79429B5C0C9A47630D7A7878FA'
+  url64         = 'https://github.com/wxy1343/MagiskOnWSALocal/releases/download/2119dcf/WSA-with-magisk-stable-OpenGApps-pico_2208.40000.5.0_x64_Release-Nightly.7z'
+  checksum64    = 'dfc5746c123be0ed72d8d0a286a048b795853083759b4e39e8c5346bc45e3616'
 
   checksumType  = 'sha256'
 

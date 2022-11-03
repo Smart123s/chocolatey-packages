@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>magisk-on-wsa</id>
-    <version>2207.40000.8.0</version>
+    <version>2208.40000.5.0</version>
     <title>Magisk on WSA (with Google Apps)</title>
     <authors>LSPosed</authors>
     <owners>Smart123s</owners>
