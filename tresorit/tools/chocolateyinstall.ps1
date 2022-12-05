@@ -7,7 +7,7 @@ $packageArgs = @{
 
   softwareName  = 'Tresorit'
 
-  checksum64    = '97747D47DF86341C9F795934A2EE9C69DCC4F665F008A220A0DEC21862AE2877'
+  checksum64    = '031E36C50DD62D24CD0B4687F862385D0E7E367FF6EB27B9EBADBC5F95C583C5'
   checksumType  = 'sha256'
 
   silentArgs    = '/s /v"/qn"'
