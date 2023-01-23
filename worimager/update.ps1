@@ -25,7 +25,7 @@ function global:au_GetLatest {
     $regex         = '.*WoR-Release-.*'
     $encodedUrl    = $download_page.links | ? href -match $regex | select -First 1 -expand href
     $url           = ([System.Web.HttpUtility]::UrlDecode($encodedUrl) -Split "url=")[1]
-    $version       = ($url -split '-' | select -Last 1).trim("?dl=1")
+    $version       = ($url -split '-' | select -Last 1).Replace("?dl=1", "")
 	
     return @{ Version = $version; URL = $url }
 }
