@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>webos-dev-manager</id>
+    <version>1.9.2</version>
+    <title>webOS Dev Manager</title>
+    <authors>Mariotaku</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://www.webosbrew.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/webosbrew/dev-manager-desktop@e7a9b4ed0e89adda3547ae1e7c3b7a05c3f15812/src/assets/icons/favicon.512x512.png</iconUrl>
+    <copyright>Apache-2.0 license</copyright>
+    <licenseUrl>https://github.com/webosbrew/dev-manager-desktop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/webosbrew/dev-manager-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/webosbrew/dev-manager-desktop/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/webos-dev-manager</packageSourceUrl>
+    <tags>lg webos webos-tv webosose</tags>
+    <summary>asy tool to manage developer mode and sideload applications on your webOS TV</summary>
+    <description># Device/DevMode Manager for webOS TV
+
+Easy tool to manage developer mode and sideload applications on your webOS TV - [Download Now](https://github.com/webosbrew/dev-manager-desktop/releases/latest)
+
+## Features
+      
+ - Portable - no need to install LG SDK or IDE
+ - Add device without need to use command line
+ - Install apps on TV with a few clicks
+ - Works on Windows, Linux and macOS
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
