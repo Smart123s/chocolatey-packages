@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>geekbench5</id>
-    <version>5.5.0</version>
+    <version>5.5.1</version>
     <title>Geekbench 5</title>
     <authors>Primate Labs Inc.</authors>
     <owners>Smart123s</owners>
