@@ -22,7 +22,7 @@ if ( [Environment]::OSVersion.Version.Build -lt 22000) {
 Install-ChocolateyZipPackage @packageArgs
 
 # Get the name of the extracted folder
-$folderName = ($packageArgs.url64 -Split '/' | Select -Last 1).Replace('.zip', '')
+$folderName = 'WSA_2301.40000.4.0_x64_Release-Nightly-with-magisk-25.2(25200)-stable-MindTheGapps-13.0-RemovedAmazon'
 
 # Get name of install script
 $installScript = Join-Path "$toolsDir\$folderName" "Install.ps1"
