@@ -10,15 +10,11 @@ function global:au_SearchReplace {
     }
 }
 
-
-function global:au_BeforeUpdate {
-    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
-}
-
 function global:au_GetLatest {
-    $download_page = Get-GitHubLatestReleaseLinks -User "wxy1343" -Repository "MagiskOnWSALocal"
+    $download_page = Get-GitHubLatestReleaseLinks -User "Smart123s" -Repository "MagiskOnWSARemote"
 
-    $url = $download_page.links | ? href -match 'x64' | % href | select -First 1
+    # Select x64 magisk GApps build
+    $url = $download_page.links | ? href -match '.*x64.*with-magisk.*MindTheGapps.*' | % href | select -First 1
 
     $version = "$( $url -split '_' | select -Last 1 -Skip 2 )"
 
@@ -35,4 +31,4 @@ try {
     if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
 }
 
-update -ChecksumFor none
+update -ChecksumFor 64
