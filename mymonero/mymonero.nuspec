@@ -8,7 +8,7 @@
     <owners>Smart123s</owners>
     <projectUrl>https://mymonero.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/mymonero/mymonero-app-js@5c7455d30e4e20150962f5f74efd83477962a05e/build/icon.png</iconUrl>
-    <copyright>BSD-3-Clause license</copyright>
+    <copyright>Copyright 2014-2023 MyMonero (PTY) LTD</copyright>
     <licenseUrl>https://github.com/mymonero/mymonero-app-js/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/mymonero/mymonero-app-js</projectSourceUrl>
