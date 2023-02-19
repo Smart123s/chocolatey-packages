@@ -22,6 +22,10 @@ function global:au_GetLatest {
     $url           = $download_page.links | ? href -match $regex | select -First 1 -expand href
     $version       = ($url -split '-' | select -Skip 1 -Last 1)
 	
+    if (-not $version.StartsWith('6')) {
+        throw 'New major version has been released. Aborting update.'
+    }
+
     return @{ Version = $version; URL64 = $url }
 }
 
