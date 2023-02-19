@@ -7,7 +7,7 @@
     <authors>Primate Labs Inc.</authors>
     <owners>Smart123s</owners>
     <projectUrl>https://www.geekbench.com/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@08d04c3ce14dfb5ccc613e40a4a29b88683f447d/icons/geekbench6.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@08d04c3ce14dfb5ccc613e40a4a29b88683f447d/icons/geekbench6.svg</iconUrl>
     <copyright>Copyright © 2004-2023 Primate Labs Inc.</copyright>
     <licenseUrl>https://www.primatelabs.com/legal/terms-of-use.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
