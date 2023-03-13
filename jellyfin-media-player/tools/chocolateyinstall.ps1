@@ -4,11 +4,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'Jellyfin Media Player'
 
-  url           = 'https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.8.1/JellyfinMediaPlayer-1.8.1-windows-x86.exe'
-  checksum      = '980c4789f49d56d7a1f43ceeecaddd6fb95a95608e3e3d02769ee52220bee618'
+  url           = 'https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.9.0/JellyfinMediaPlayer-1.9.0-windows-x86.exe'
+  checksum      = '24d4a33a9b6b24b63e6080b4d7b8e8cbe5756bac72bffe1fdc1ff70d49aaaca2'
 
-  url64         = 'https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.8.1/JellyfinMediaPlayer-1.8.1-windows-x64.exe'
-  checksum64    = '829e797ecd9bbde5c362cad90730caed5e89406eb01d13913ffbafe019bbeabd'
+  url64         = 'https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.9.0/JellyfinMediaPlayer-1.9.0-windows-x64.exe'
+  checksum64    = '9a09d299fbb177735f68cc6ba0973e257102c86c5382417e0b5ca82770d0ae4c'
 
   checksumType  = 'sha256'
 
