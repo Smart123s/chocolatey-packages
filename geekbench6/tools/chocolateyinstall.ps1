@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'EXE'
-  url64         = 'https://cdn.geekbench.com/Geekbench-6.0.1-WindowsSetup.exe'
+  url64         = 'https://cdn.geekbench.com/Geekbench-6.0.2-WindowsSetup.exe'
 
   softwareName  = 'Geekbench 6'
 
-  checksum64    = '6a0abd8c583a6c924103f93c6e32c112d05c858db9644dc343a41984b2ee9686'
+  checksum64    = 'aef0f725d9054400bfc596eabcd29a18b44fdcaf5252ebcbbf1b5afba073aa2c'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
