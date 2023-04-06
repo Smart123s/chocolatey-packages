@@ -1,7 +1,7 @@
 Import-Module AU
 Add-Type -AssemblyName System.Web
 
-$releases = 'https://mullvad.net/en/download/windows/'
+$releases = 'https://mullvad.net/en/download/vpn/windows'
 
 function global:au_SearchReplace {
     @{
