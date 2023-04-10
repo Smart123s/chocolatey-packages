@@ -3,5 +3,5 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 signalbackup-tools.exe:
-Download: https://github.com/bepaald/signalbackup-tools/releases/download/20230409/signalbackup-tools_win.exe
-sha256: 8EF2BC46D085E19F6567D5AF8E8B92AA3FEEF4B4824EEE6E8AFE704FB3B1523E
+Download: https://github.com/bepaald/signalbackup-tools/releases/download/20230409-2/signalbackup-tools_win.exe
+sha256: CFED9A2B4D9DD87705224B4123991FDA8846E5E4EE9D038E3CFDE2D024793922
