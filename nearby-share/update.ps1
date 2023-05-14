@@ -16,10 +16,11 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases -Method Post -Body $releases_body
     $app           = ([xml]$download_page.Content).gupdate.app.updatecheck
+    $url           = $app.codebase
     $version       = ($url -split '_' | select -Skip 1 -Last 1).Replace('/better', '')
 	
     return @{
-        URL64      = $app.codebase
+        URL64      = $url
         Checksum64 = $app.hash_sha256
         Version    = $version
     }
