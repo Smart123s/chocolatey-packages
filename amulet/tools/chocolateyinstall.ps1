@@ -5,9 +5,6 @@ $PackageParameters = Get-PackageParameters
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $toolsDir
-  
-  url32         = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.13/Amulet-v0.10.13-Windows-x86.zip'
-  checksum32    = 'd2f03d4cfc1205f72af074b636d8cf6bd165bbc11ab3811e57b57fcdae5b4c26'
 
   url64         = 'https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.13/Amulet-v0.10.13-Windows-x64.zip'
   checksum64    = '501845cd44ffdb3f31518f75ce5fae374ba27ad3c6ba6332cbe2109c7d91314c'
