@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cubeworld</id>
+    <version>0.2013.07.24</version>
+    <title>Cube World</title>
+    <authors>Picroma e.K.</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://picroma.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@69f0302861f3770e17de919cf5abb4ad0dcca043/icons/cubeworld.png</iconUrl>
+    <copyright>Copyright 2013 Picroma. All Rights Reserved.</copyright>
+    <docsUrl>https://cubeworld.fandom.com/wiki/Cube_World_Wiki</docsUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/cubeworld</packageSourceUrl>
+    <tags>cube game sandbox procedural</tags>
+    <releaseNotes>https://cubeworld.fandom.com/wiki/Patch_Notes/Versions</releaseNotes>
+    <summary>Cube World is a voxel-based action RPG with a focus on exploration video game developed and published by Picroma which was created by Wollay and Pixxie. Cube World takes place in a procedurally generated fantasy world made up entirely of cubes. It released on Steam for Windows on September 30th, 2019 - how will you fare in the world of cubes?</summary>
+    <description>## Game Source
+This version of the game is no longer available for download on the developer's official website.
+This package downloads the game from archive.org, where it was uploaded by one of its users. There's no way to know if the game was modified or not.
+Original shortcut and package icon: https://www.deviantart.com/alucryd/art/Cube-World-YAIcon-385563633
+
+## Package Parameters
+Command-line options for installer configuration:
+  - `/NoDesktopShortcut` Do not create Desktop Shortcut
+  - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+  - `/InstallDir:PATH`
+
+## Disclaimer
+
+This guide and software presented here are provided "as is", without warranty of any kind. We're not responsible for any damage caused to your devices by following the steps below.</description>
+    <dependencies>
+      <dependency id="directx" version="9" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
