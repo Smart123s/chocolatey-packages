@@ -19,9 +19,6 @@ environment:
 
   # Github token to commit pushed packages to repository
   github_user_repo: Smart123s/chocolatey-packages
-  github_api_key:
-    secure: fk476iE59zELR3ZgWPIqozM9oMJzraYp8csAzup3RH8UYkXxfoRBNAathcisUWCb #https://ci.appveyor.com/tools/encrypt
-
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
@@ -30,9 +27,12 @@ environment:
   # Force test: gist id for test results
   gist_id_test: a3104f605bb45fa44d16621d5c2681b6
 
+  # Cloudsmith Push URL
+  au_PushUrl: https://nuget.cloudsmith.io/smart123s/choco/v2
+
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: 6DoEHvjM6yjKSeAh24ODgvVL0D70SpmlgineHGtI3E9I6vQmNjkVvaloyYnxEpcx # https://ci.appveyor.com/tools/encrypt
+    secure: rkxaSvBHfIS9GWWi5w2T1pg3YRlv02SKLtA+hJ1cDE5ilqhtGwW3ZtgVkA5Hh6D2 # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"

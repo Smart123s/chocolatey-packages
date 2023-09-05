@@ -10,7 +10,7 @@ function Get-GitHubLatestReleaseLinks() {
     $releases_page = Invoke-WebRequest -Uri $releases_url -UseBasicParsing
     $release_tag_url = "https://github.com" + ($releases_page.links | Where-Object href -match "/tag/v" | Select-Object -First 1 -ExpandProperty href)
   } else {
-    $latest_releases_url = "https://github.com/" + $user + "/" + $repository + "/releases/latest"
+    $latest_releases_url = "https://github.com/" + $user + "/" + $repository + "/releases/tag/v2023-09-03"
     $release_tag_url = Get-RedirectedUrl -url $latest_releases_url
   }
 
