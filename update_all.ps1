@@ -61,11 +61,6 @@ $Options = [ordered]@{
         Branch = "selfhost"
     }
 
-    GitReleases  = @{
-        ApiToken    = $Env:github_api_key                   #Your github api key
-        ReleaseType = 'package'                             #Either 1 release per date, or 1 release per package
-    }
-
     RunInfo = @{
         Exclude = 'password', 'apikey', 'apitoken'          #Option keys which contain those words will be removed
         Path    = "$PSScriptRoot\update_info.xml"           #Path where to save the run info
