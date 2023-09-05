@@ -6,8 +6,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation  = "$toolsDir"
 
-  url64         = 'https://github.com/Smart123s/MagiskOnWSARemote/releases/download/WSA-2301.40000.4.0/WSA_2301.40000.4.0_x64_Release-Nightly-with-magisk-25.2.25200.-stable-MindTheGapps-13.0-RemovedAmazon.zip'
-  checksum64    = 'b891ba1fe1041f2346f15ea066d65482b857a224465c937caea456246b951db2'
+  url64         = 'https://github.com/YT-Advanced/WSA-Script/releases/download/v2023-09-03/WSA_2307.40000.6.0_x64_Release-Nightly-with-Magisk-26.1-stable-MindTheGapps-13.0-as-Pixel-5-RemovedAmazon.7z'
+  checksum64    = 'c3aa0dd50926a42890e77eda6c5bd5f66a6fdfb3a612dc3986797edcf710d0b2'
 
   checksumType  = 'sha256'
 
