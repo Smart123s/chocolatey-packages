@@ -21,11 +21,8 @@ if ( [Environment]::OSVersion.Version.Build -lt 22000) {
 
 Install-ChocolateyZipPackage @packageArgs
 
-# Get the name of the extracted folder
-$folderName = 'WSA_2301.40000.4.0_x64_Release-Nightly-with-magisk-25.2(25200)-stable-MindTheGapps-13.0-RemovedAmazon'
-
 # Get name of install script
-$installScript = Join-Path "$toolsDir\$folderName" "Install.ps1"
+$installScript = Join-Path "$toolsDir" "Install.ps1"
 
 # Make installer silent
 (Get-Content $installScript).Replace('$null = $Host.UI.RawUI.ReadKey' + "('NoEcho,IncludeKeyDown')", '') `
@@ -34,5 +31,5 @@ $installScript = Join-Path "$toolsDir\$folderName" "Install.ps1"
   -Replace 'Clear-Host', '' | Set-Content $installScript
 
 # Execute install script
-cd "$toolsDir\$folderName" 
+cd "$toolsDir" 
 ./Install.ps1

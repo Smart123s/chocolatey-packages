@@ -1,3 +1,6 @@
+$global:au_GalleryPackageRootUrl = "https://cloudsmith.io/~smart123s/repos/choco/packages/detail/nuget/"
+$global:au_PushUrl = "https://nuget.cloudsmith.io/smart123s/choco/v2"
+
 import-module au
 . $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
@@ -6,7 +9,6 @@ function global:au_SearchReplace {
         "tools\chocolateyinstall.ps1" = @{
             "(url64\s*=\s*)('.*')"          = "`$1'$($Latest.URL64)'"
             "(checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
-            "(folderName\s*=\s*)('.*')"     = "`$1'$($Latest.FolderName64)'"
 		}
     }
 }
@@ -24,10 +26,10 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Get-GitHubLatestReleaseLinks -User "Smart123s" -Repository "MagiskOnWSARemote"
+    $download_page = Get-GitHubLatestReleaseLinks -User "YT-Advanced" -Repository "WSA-Script"
 
     # Select x64 magisk GApps build
-    $url = $download_page.links | ? href -match '.*x64.*with-magisk.*MindTheGapps.*' | % href | select -First 1
+    $url = $download_page.links | ? href -match '.*x64.*with-magisk.*MindTheGapps.*RemovedAmazon.*' | % href | select -First 1
 
     $version = "$( $url -split '_' | select -Last 1 -Skip 2 )"
 
@@ -43,5 +45,3 @@ try {
     $ignore = 'Unable to connect to the remote server'
     if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
 }
-
-update -ChecksumFor none

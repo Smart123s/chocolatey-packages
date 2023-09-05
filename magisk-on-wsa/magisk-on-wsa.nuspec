@@ -17,11 +17,7 @@
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/magisk-on-wsa</packageSourceUrl>
     <tags>magisk android google play store root</tags>
     <summary>Integrate Magisk root and Google Apps (OpenGApps) into WSA (Windows Subsystem for Android)</summary>
-    <description># NOTICE: Build sources
-
-LSPosed no longer provides builds via GitHub Actions in their official repository (as their original repository was shut down because it supposedly abused GitHub Actions), so I (the magisk-on-wsa chocolatey package maintainer) created a simple script that builds the latest versions of MagiskOnWsaLocal using GitHub actions. You can verify that the builds were not altered before publishing by viewing the action runs' logs at https://github.com/Smart123s/MagiskOnWSARemote.
-
-# Magisk on WSA (with Google Apps)
+    <description># Magisk on WSA (with Google Apps)
 
 ## Features
 - Integrate Magisk and OpenGApps in a few clicks within minutes
@@ -35,6 +31,10 @@ LSPosed no longer provides builds via GitHub Actions in their official repositor
 - Update to new version while preserving data with one-click script
 - Merged all language packs
 - Support managing start menu icons (manually installing [WSAHelper](https://github.com/LSPosed/WSAHelper/releases/latest) to use this feature)
+
+### Build sources
+
+LSPosed no longer provides builds via GitHub Actions in their official repository (as their original repository was shut down due to abousng GitHub Actions), so a reliable fork by Hoàng Gia Bảo is used instead. Releases are built using GitHub actions so they couldn't be altered before publishing.
 
 #### Package updates
 
