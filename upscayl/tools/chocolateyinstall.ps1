@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'Upscaly'
 
-  url64         = 'https://github.com/upscayl/upscayl/releases/download/v2.8.6/upscayl-2.8.6-win.exe'
-  checksum64    = 'b69815d918f6ce89e218eceab16cb5262dbb64845f5936280b77a9312be84361'
+  url64         = 'https://github.com/upscayl/upscayl/releases/download/v2.9.1/upscayl-2.9.1-win.exe'
+  checksum64    = 'ddebee8fb28484d144ac8c7e07063354105534797ff0c38fbdbe0beb84a5ec91'
 
   checksumType  = 'sha256'
 
