@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>signalbackup-tools</id>
-    <version>2024.02.24</version>
+    <version>2024.02.25</version>
     <title>signalbackup-tools</title>
     <authors>bepaald</authors>
     <owners>Smart123s</owners>
