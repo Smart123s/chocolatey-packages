@@ -1,7 +1,7 @@
 ﻿$toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 . $toolsPath\helpers.ps1
 
-$version = '1.0.1444.0'
+$version = '1.0.1533.13'
 if ($version -eq (Get-NearbyShareVersion)) {
   Write-Host "Nearby Share $version is already installed."
   return
@@ -10,8 +10,8 @@ if ($version -eq (Get-NearbyShareVersion)) {
 $packageArgs = @{
   packageName            = 'Nearby Share'
   fileType               = 'MSI'
-  url64                  = 'https://www.google.com/dl/release2/Nearby/punp3egidmlb2i7puxqm7obsmq_1.0.1444.0/better_together.msi'
-  checksum64             = '1502d36aff6fd1f9f74a38c7fe902c168a136601eda8128f852905945664ff76'
+  url64                  = 'http://www.google.com/dl/release2/Nearby/acngz3ub57cmgs7f7m7aov6rhbka_1.0.1533.13/better_together.msi'
+  checksum64             = 'aab29487107ecb4d4642638a4a94b46fae17e5d6846bc4f2d8f805fe70db63bb'
   checksumType64         = 'sha256'
   silentArgs             = "/quiet /norestart"
   validExitCodes         = @(0)
