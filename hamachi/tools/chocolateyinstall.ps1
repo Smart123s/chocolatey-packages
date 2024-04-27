@@ -9,7 +9,7 @@ $packageArgs = @{
 
   softwareName  = 'LogMeIn Hamachi'
 
-  checksum      = '19599ebcc20574aabff6816f78580711cd416ac545aacaf47ea4cff2f615d3b1'
+  checksum      = '6ee98db32852a2ff31a969d918bb7c730950bb15f24ea1baf996697cebc8b9fa'
   checksumType  = 'sha256'
 
   silentArgs    = $silentArgs
