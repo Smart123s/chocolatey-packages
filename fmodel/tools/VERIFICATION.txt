@@ -3,5 +3,5 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 FModel.zip:
-Download: https://github.com/4sval/FModel/releases/download/4.4.3.5/FModel.zip
-sha256: 1DD8E4F7ADF311E0FF96581CBB0EF81658E38F114BB784AE3271BD47234DF90D
+Download: https://github.com/4sval/FModel/releases/download/4.4.3.6/FModel.zip
+sha256: A37ACECBA66E9EC5866A07C034DCFE57C8B4D33D32E18FC3B8B0758F7F1DF19D
