@@ -26,6 +26,10 @@ function global:au_GetLatest {
     # Convert version to choco format
     $version = $version.Insert(6, ".").Insert(4, ".").Replace("-", ".")
 
+    # Remove leading zeros from verison
+    # Fixes error https://gist.github.com/choco-bot/6c57f5ed02fcb7bf0dcfe709bc7000ad#file-install-txt-L197
+    $version = $version -replace '(?<=\.|\b)0+(?=\d)', ''
+
     @{
        URL64   = 'https://github.com' + $url
        Version = $version
