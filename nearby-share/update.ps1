@@ -18,6 +18,10 @@ function global:au_GetLatest {
     $app           = ([xml]$download_page.Content).gupdate.app.updatecheck
     $url           = $app.codebase
     $version       = ($url -split '_' | select -Skip 1 -Last 1).Replace('/better', '')
+
+    # Remove leading zeros from verison
+    # Fixes error https://gist.github.com/choco-bot/6c57f5ed02fcb7bf0dcfe709bc7000ad#file-install-txt-L197
+    $version = $version -replace '(?<=\.|\b)0+(?=\d)', ''
 	
     return @{
         URL64      = $url
