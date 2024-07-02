@@ -1,4 +1,4 @@
-function Get-NearbyShareVersion() {
+function Get-QuickShareVersion() {
   $root   = 'HKLM:\SOFTWARE\Google\Update\Clients'
   $root64 = 'HKLM:\SOFTWARE\Wow6432Node\Google\Update\Clients'
   foreach ($r in $root,$root64) {
