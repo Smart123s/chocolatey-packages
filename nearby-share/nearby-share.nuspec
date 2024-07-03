@@ -12,7 +12,7 @@
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/nearby-share</packageSourceUrl>
     <tags>google androd transfer share file</tags>
     <summary>Send and receive photos, documents and more between nearby Android devices and Windows PCs.</summary>
-    <description>##Deprecated
+    <description>## Deprecated
 
 This package has been deprecated in favor of the [quick-share](/packages/quick-share) package.
 
