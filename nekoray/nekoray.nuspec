@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nekoray</id>
+    <version>3.26</version>
+    <title>nekoray</title>
+    <authors>MatsuriDayo</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://github.com/MatsuriDayo/nekoray</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/MatsuriDayo/nekoray@7c783308a78c6bff2da371ceadeeb85e2c4d198d/res/public/nekoray.png</iconUrl>
+    <copyright>GPL-3.0 License</copyright>
+    <licenseUrl>https://github.com/MatsuriDayo/nekoray/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/MatsuriDayo/nekoray</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/MatsuriDayo/nekoray/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/nekoray</packageSourceUrl>
+    <tags>proxy shadowsocks trojan v2ray vmess vless sing-box naiveproxy</tags>
+    <summary>Qt based cross-platform GUI proxy configuration manager (backend: sing-box)</summary>
+    <description>Qt based cross-platform GUI proxy configuration manager (backend: sing-box)
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
