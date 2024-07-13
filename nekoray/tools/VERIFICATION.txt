@@ -3,5 +3,5 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 nekoray.zip:
-Download: https://github.com/MatsuriDayo/nekoray/releases/download/3.23/nekoray-3.23-2023-10-14-windows64.zip
-sha256: 6AE1971F521B0CC82A48994555D076492AD2B705080212BE2813EF66A25BD0A7
+Download: https://github.com/MatsuriDayo/nekoray/releases/download/3.26/nekoray-3.26-2023-12-09-windows64.zip
+sha256: F33DA7548192220486FD082CD6B533D37B909D3B37C4B1AC2738640F9A25AC1B
