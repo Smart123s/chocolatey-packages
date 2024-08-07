@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>heroic-games-launcher.portable</id>
+    <version>2.14.1</version>
+    <title>Heroic Games Launcher (Portable)</title>
+    <authors>Heroic Games Launcher</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://heroicgameslauncher.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Heroic-Games-Launcher/HeroicGamesLauncher@ae41da5c087c3930ac717785328bf4753fd21b9a/public/icon.png</iconUrl>
+    <copyright>GPL-3.0 License</copyright>
+    <licenseUrl>https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher</projectSourceUrl>
+    <docsUrl>https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/heroic-games-launcher</packageSourceUrl>
+    <tags>game gaming herioc launcher epic gog</tags>
+    <summary>An alternative GOG and Epic Games Launcher for Linux, Windows and macOS</summary>
+    <description># Heroic Games Launcher
+
+Heroic is an Open Source Game Launcher for Linux, Windows and macOS.
+Right now it supports launching games from the Epic Games Store using Legendary, GOG Games using our custom implementation with gogdl and Amazon Games using Nile.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>

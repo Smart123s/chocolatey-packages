@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'heroic-games-launcher.portable' 'heroic-games-launcher.install'
