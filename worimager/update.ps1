@@ -22,10 +22,10 @@ function global:au_BeforeUpdate {
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
-    $regex         = '.*WoR-Release-.*'
+    $regex         = '.*WoR_Release_.*'
     $encodedUrl    = $download_page.links | ? href -match $regex | select -First 1 -expand href
     $url           = ([System.Web.HttpUtility]::UrlDecode($encodedUrl) -Split "url=")[1]
-    $version       = ($url -split '-' | select -Last 1).Replace("?dl=1", "")
+    $version       = ($url -split '_' | select -Last 1).Replace(".zip", "")
 	
     return @{ Version = $version; URL = $url }
 }

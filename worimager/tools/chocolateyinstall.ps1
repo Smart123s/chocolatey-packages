@@ -13,7 +13,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $installDir
   
-  url           = 'https://dl.orangedox.com/WoR-Release-2.3.1?dl=1'
+  url           = 'https://github.com/worproject/dldserv-mirror/releases/download/13/02/2024/WoR_Release_2.3.1.zip'
   checksum      = 'fc3f6a98e1744adaa8c514514c35176805aac8bb44e16514c2a979683fa0ae1f'
   checksumType  = 'sha256'
 
