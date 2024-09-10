@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>naiveproxy</id>
+    <version>128.0.6613.40</version>
+    <title>NaïveProxy</title>
+    <authors>klzgrad</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://github.com/klzgrad/naiveproxy</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/klzgrad/naiveproxy@9b7d6038eafae6490a05abf004ded3ac13fb65e1/src/net/android/unittest_support/res/mipmap-xxxhdpi/app_icon.png</iconUrl>
+    <copyright>BSD 3-Clause</copyright>
+    <licenseUrl>https://github.com/klzgrad/naiveproxy/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/klzgrad/naiveproxy</projectSourceUrl>
+    <docsUrl>https://github.com/klzgrad/naiveproxy/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/klzgrad/naiveproxy/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/naiveproxy</packageSourceUrl>
+    <tags>naive proxy chromium</tags>
+    <summary>NaïveProxy uses Chromium's network stack to camouflage traffic with strong censorship resistence and low detectablility.</summary>
+    <description>NaïveProxy uses Chromium's network stack to camouflage traffic with strong censorship resistence and low detectablility. Reusing Chrome's stack also ensures best practices in performance and security.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
