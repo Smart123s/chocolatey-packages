@@ -13,8 +13,8 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileFullPath   = $file64Location
 
-  url64          = 'https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.15.1/Heroic-2.15.1-Portable-x64.exe'
-  checksum64     = '5ca2cd8d7d269cdb269aae7bc5924e022ec2104fb29c02caacb7e23a7941b41d'
+  url64          = 'https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.15.2/Heroic-2.15.2-Portable-x64.exe'
+  checksum64     = 'afa8cd3dc11c23bf35d6ff6fe241e8e58554664c689850e1e2c2e673bfbfebab'
 
   checksumType   = 'sha256'
 
