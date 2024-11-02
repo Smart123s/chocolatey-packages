@@ -20,7 +20,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
     [regex]$regex  = '(?:.*Latest version: )(\d+.\d+)'
     $version       = $regex.Matches($download_page.content).Value.Split(' ') | Select -Last 1
-    $url           = "https://mullvad.net/media/app/MullvadVPN-" + $version + ".exe"
+    $url           = "https://github.com/mullvad/mullvadvpn-app/releases/download/" + $version +"/MullvadVPN-" + $version + ".exe"
 	
     return @{ Version = $version; URL = $url }
 }
