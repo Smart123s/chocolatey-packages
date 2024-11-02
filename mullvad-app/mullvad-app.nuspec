@@ -21,10 +21,9 @@
     <description><![CDATA[
 The Mullvad VPN client app.
 
-Requires an account number obtainable from [Mullvad's website]. A three hour
-trial is provided when creating a new account. The account can be paid for
-using anonymous methods such as cash and cryptocurrency. According to the
-[VPN policy], this VPN doesn't keep logs.
+Requires an account number obtainable from [Mullvad's website]. The account
+can be paid for using anonymous methods such as cash and cryptocurrency.
+According to the [VPN policy], this VPN doesn't keep logs.
 
 [Mullvad's website]: https://mullvad.net/en/account/create/
 [VPN policy]: https://mullvad.net/en/guides/no-logging-data-policy/
