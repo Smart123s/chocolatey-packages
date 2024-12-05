@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>amulet</id>
-    <version>0.10.38</version>
+    <version>0.10.39</version>
     <title>Amulet Map Editor</title>
     <authors>Asval</authors>
     <owners>Smart123s</owners>
