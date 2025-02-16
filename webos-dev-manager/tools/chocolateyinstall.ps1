@@ -3,13 +3,13 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'MSI'
-  url           = 'https://github.com/webosbrew/dev-manager-desktop/releases/download/v1.99.8/webOS.Dev.Manager_1.99.8_x86_en-US.msi'
-  url64         = 'https://github.com/webosbrew/dev-manager-desktop/releases/download/v1.99.8/webOS.Dev.Manager_1.99.8_x64_en-US.msi'
+  url           = 'https://github.com/webosbrew/dev-manager-desktop/releases/download/v1.99.9/webOS.Dev.Manager_1.99.9_x86_en-US.msi'
+  url64         = 'https://github.com/webosbrew/dev-manager-desktop/releases/download/v1.99.9/webOS.Dev.Manager_1.99.9_x64_en-US.msi'
 
   softwareName  = 'webOS Dev Manager'
 
-  checksum      = '91a2d4a55bde279773c3184d93911cb2fc75254f89e209c33092490d4a35e6f2'
-  checksum64    = '688bec21cefcca167ac8ecf7c39d2b14d27a091f21d57f5062506f9c9b2803f7'
+  checksum      = '6e381da2c500615b09662cd7b945a76c01b99bf0f52381463c3b076069df0dab'
+  checksum64    = '6efa8a447f9af42008b9c01b0bf8e4f8f83153d5e9381341d11607f4a51e026d'
   checksumType  = 'sha256'
 
   silentArgs    = '/quiet'
