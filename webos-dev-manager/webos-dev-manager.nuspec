@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>webos-dev-manager</id>
-    <version>1.99.9</version>
+    <version>1.99.10</version>
     <title>webOS Dev Manager</title>
     <authors>Mariotaku</authors>
     <owners>Smart123s</owners>
