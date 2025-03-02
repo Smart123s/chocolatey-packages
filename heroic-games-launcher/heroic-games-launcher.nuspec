@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>heroic-games-launcher</id>
-    <version>2.15.2</version>
+    <version>2.16.0</version>
     <title>Heroic Games Launcher</title>
     <authors>Heroic Games Launcher</authors>
     <owners>Smart123s</owners>
@@ -26,7 +26,7 @@ Right now it supports launching games from the Epic Games Store using Legendary,
    
 New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
   <dependencies>
-    <dependency id="heroic-games-launcher.install" version="2.15.2" />
+    <dependency id="heroic-games-launcher.install" version="2.16.0" />
   </dependencies>
   </metadata>
   <files>
