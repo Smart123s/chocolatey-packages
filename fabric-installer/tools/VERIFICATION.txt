@@ -3,5 +3,5 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 fabric-installer.exe:
-Download: https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.exe
-sha256: D90987A8F7A56CD9C09F69585DE0EE6241C326F5B41399B2A8319D03FE6CE64E
+Download: https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.2/fabric-installer-1.0.2.exe
+sha256: 66755679D190AEF76CF70D7E1EA7E234FB6AD1072506D7E5019EC3A4BB2E5484
