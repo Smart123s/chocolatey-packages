@@ -26,6 +26,9 @@
 #### Package updates
    
 New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+    <dependencies>
+      <dependency id="vcredist140" version="14.42.34438" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools/**" target="tools" />
