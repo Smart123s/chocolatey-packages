@@ -10,6 +10,17 @@ $packageArgs = @{
 Get-ChocolateyUnzip @packageArgs
 Remove-Item -ea 0 -force -path $toolsDir\*.zip
 
+$nekorayConfigDir = Join-Path $toolsDir "nekoray\config"
+if (-Not (Test-Path $nekorayConfigDir)) {
+  New-Item -ItemType Directory -Path $nekorayConfigDir | Out-Null
+}
+
+# Make the directory writable by regular users
+$acl = Get-Acl $nekorayConfigDir
+$accessRule = New-Object System.Security.AccessControl.FileSystemAccessRule("Users", "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
+$acl.SetAccessRule($accessRule)
+Set-Acl -Path $nekorayConfigDir -AclObject $acl
+
 $targetPath = Join-Path (Join-Path $toolsDir "nekoray") "nekobox.exe"
 
 # Add StartMenu shortcut
