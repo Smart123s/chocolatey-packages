@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>nekoray</id>
-    <version>4.0.1</version>
+    <version>4.0.1.20250317</version>
     <title>nekoray</title>
     <authors>MatsuriDayo</authors>
     <owners>Smart123s</owners>

@@ -10,7 +10,7 @@ $packageArgs = @{
 Get-ChocolateyUnzip @packageArgs
 Remove-Item -ea 0 -force -path $toolsDir\*.zip
 
-$targetPath = Join-Path (Join-Path $toolsDir "nekoray") "nekoray.exe"
+$targetPath = Join-Path (Join-Path $toolsDir "nekoray") "nekobox.exe"
 
 # Add StartMenu shortcut
 If (-Not( $PackageParameters.NoStartMenuShortcut )) {
