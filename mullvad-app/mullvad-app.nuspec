@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mullvad-app</id>
-    <version>2025.4</version>
+    <version>2025.5</version>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/mullvad-app/</packageSourceUrl>
     <owners>Smart123s</owners>
     <title>Mullvad app</title>
