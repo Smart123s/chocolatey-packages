@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bedrock-launcher</id>
+    <version>2024.11.15.4</version>
+    <title>Bedrock Launcher</title>
+    <authors>Bedrock Launcher contributors</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://bedrocklauncher.github.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@37a6bd06ed52e9a706ffca8015112f31c16a8c66/icons/bedrock-launcher.png</iconUrl>
+    <copyright>GPL-3</copyright>
+    <licenseUrl>https://github.com/BedrockLauncher/BedrockLauncher/blob/lite/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/BedrockLauncher/BedrockLauncher</projectSourceUrl>
+    <docsUrl>https://github.com/BedrockLauncher/BedrockLauncher/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/BedrockLauncher/BedrockLauncher/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/bedrock-launcher</packageSourceUrl>
+    <tags>minecraft bedrock launcher</tags>
+    <summary>An unofficial Minecraft for Windows 10 launcher that enables similar features from the Minecraft Java Edition Launcher.</summary>
+    <description>An unofficial Minecraft for Windows 10 launcher that enables similar features from the Minecraft Java Edition Launcher.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
