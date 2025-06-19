@@ -17,9 +17,9 @@ If ( Test-ProcessAdminRights ) {
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url64         = 'https://github.com/BedrockLauncher/BedrockLauncher/releases/download/2024.11.15.4/BedrockLauncher2024.11.15.4.zip'
+  url64         = 'https://github.com/BedrockLauncher/BedrockLauncher/releases/download/2025.6.19.8/BedrockLauncher2025.6.19.8.zip'
 
-  checksum64    = 'b4cacc84b6093849fe3145832d005ab347931d4c8a69e3eb5451487d4872189d'
+  checksum64    = '2a490028e2300d7d7ae8317e7c9091d5595bb22e197de9a093623fe943e12429'
   checksumType  = 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
