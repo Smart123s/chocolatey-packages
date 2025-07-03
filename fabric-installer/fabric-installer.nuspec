@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fabric-installer</id>
-    <version>1.0.3</version>
+    <version>1.1.0</version>
     <title>Fabric Installer</title>
     <authors>FabricMC</authors>
     <owners>Smart123s</owners>
