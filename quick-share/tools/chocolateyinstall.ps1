@@ -1,7 +1,7 @@
 ﻿$toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 . $toolsPath\helpers.ps1
 
-$version = '1.0.2180.0'
+$version = '1.0.2268.3'
 if ($version -eq (Get-QuickShareVersion)) {
   Write-Host "Quick Share $version is already installed."
   return
@@ -10,8 +10,8 @@ if ($version -eq (Get-QuickShareVersion)) {
 $packageArgs = @{
   packageName            = 'Quick Share from Google'
   fileType               = 'MSI'
-  url64                  = 'https://edgedl.me.gvt1.com/edgedl/release2/Nearby/npy4qekokyfwz6wwy6bw7uka44_1.0.2180.0/better_together.msi'
-  checksum64             = 'da7a27555bf1bb8429bbcf1a513dc0679524912175801c98ee07ac4c029b7ea0'
+  url64                  = 'https://dl.google.com/release2/Nearby/ad7jwucicsxkyg4jgpbcwpytykya_1.0.2268.3/better_together.msi'
+  checksum64             = '422ce12c9fcbaa30cf28fc49137d2f51283c346560a7c3b16e5a06fbc2ea5787'
   checksumType64         = 'sha256'
   silentArgs             = "/quiet /norestart"
   validExitCodes         = @(0)
