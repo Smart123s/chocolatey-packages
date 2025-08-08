@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>naiveproxy</id>
-    <version>138.0.7204.35</version>
+    <version>139.0.7258.62</version>
     <title>NaïveProxy</title>
     <authors>klzgrad</authors>
     <owners>Smart123s</owners>
