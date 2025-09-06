@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>geekbench-ai</id>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <title>Geekbench AI</title>
     <authors>Primate Labs Inc.</authors>
     <owners>Smart123s</owners>
