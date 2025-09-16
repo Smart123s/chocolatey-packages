@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>modrinth-app</id>
+    <version>0.10.7</version>
+    <title>Modrinth App</title>
+    <authors>Rinth, Inc.</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://modrinth.com/app</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/modrinth/code@902d7492933f9def1d1194f40be8e9ea950f8029/apps/labrinth/assets/logo.svg</iconUrl>
+    <copyright>Copyright © 2025 Rinth, Inc.</copyright>
+    <licenseUrl>https://modrinth.com/legal/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/modrinth-app</packageSourceUrl>
+    <projectSourceUrl>https://github.com/modrinth/code/tree/main/apps</projectSourceUrl>
+    <tags>game,minecraft</tags>
+    <summary>Modrinth App is a unique, open source Minecraft launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.</summary>
+    <description>Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
+
+#### Package updates
+
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
