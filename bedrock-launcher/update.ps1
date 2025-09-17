@@ -14,7 +14,7 @@ function global:au_GetLatest {
     $download_page = Get-GitHubLatestReleaseLinks -User "BedrockLauncher" -Repository "BedrockLauncher"
 
     $url64 = $download_page.links | ? href -match '.*.zip$' | % href | select -First 1
-    $version = ($url64 -split '/' | select -Last 1 ).Replace('BedrockLauncher', '').Replace('.zip', '')
+    $version = ($url64 -split '/' | select -Last 1 ).Replace('BedrockLauncher.', '').Replace('.zip', '')
 
     @{
        URL64   = 'https://github.com' + $url64
