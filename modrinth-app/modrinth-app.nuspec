@@ -13,7 +13,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/modrinth-app</packageSourceUrl>
     <projectSourceUrl>https://github.com/modrinth/code/tree/main/apps</projectSourceUrl>
-    <tags>game,minecraft</tags>
+    <tags>game minecraft</tags>
     <summary>Modrinth App is a unique, open source Minecraft launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.</summary>
     <description>Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
 
