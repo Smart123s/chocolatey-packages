@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>flaresolverr</id>
+    <version>3.4.2</version>
+    <title>FlareSolverr</title>
+    <authors>Diego Heras</authors>
+    
+    <owners>Smart123s</owners>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@c51d0b3a64d7a66fda196501a86457e87ca966fc/icons/flaresolverr.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <projectUrl>https://github.com/FlareSolverr/FlareSolverr</projectUrl>
+    <licenseUrl>https://github.com/FlareSolverr/FlareSolverr/blob/bbc24e9d869ef197f346dd4e2565dd375504f5aa/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/FlareSolverr/FlareSolverr</projectSourceUrl>
+    <docsUrl>https://github.com/FlareSolverr/FlareSolverr/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/FlareSolverr/FlareSolverr/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/flaresolverr</packageSourceUrl>
+
+    <summary>FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.</summary>
+    <description>
+FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
+
+FlareSolverr starts a proxy server, and it waits for user requests in an idle state using few resources. When some request arrives, it uses Selenium with the undetected-chromedriver to create a web browser (Chrome). It opens the URL with user parameters and waits until the Cloudflare challenge is solved (or timeout). The HTML code and the cookies are sent back to the user, and those cookies can be used to bypass Cloudflare using other HTTP clients.
+
+This package installs the pre-compiled Windows binary release of FlareSolverr.
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+    <copyright>Copyright (c) 2025 Diego Heras (ngosang / ngosang@hotmail.es)</copyright>
+    <tags>flaresolverr cloudflare bypass proxy cf-challenge scraping</tags>
+
+    <dependencies>
+      <dependency id="python3" version="3.7.0" />
+    </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
