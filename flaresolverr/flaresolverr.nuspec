@@ -33,7 +33,7 @@ This package installs the pre-compiled Windows binary release of FlareSolverr.
 #### Package updates
    
 New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
-    <copyright>Copyright (c) 2025 Diego Heras (ngosang / ngosang@hotmail.es)</copyright>
+    <copyright>Copyright (c) 2025 Diego Heras</copyright>
     <tags>flaresolverr cloudflare bypass proxy cf-challenge scraping</tags>
 
     <dependencies>
