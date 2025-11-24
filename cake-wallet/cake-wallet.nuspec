@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cake-wallet</id>
+    <version>5.5.0</version>
+    <title>Cake Wallet</title>
+    <authors>Cake Labs LLC</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://cakewallet.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-tech/cake_wallet@f0524bcef146e2977224406136b603b20c65e2ba/assets/images/cakewallet_logo.png</iconUrl>
+    <copyright>Copyright 2018-2025 Cake Labs LLC</copyright>
+    <licenseUrl>https://github.com/cake-tech/cake_wallet/blob/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/cake-tech/cake_wallet</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/cake-tech/cake_wallet/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/cake-wallet</packageSourceUrl>
+    <tags>crypto wallet</tags>
+    <summary>Easily and safely store, send, receive, and exchange your cryptocurrency.</summary>
+    <description>Cake Wallet makes digital assets accessible, secure, and private for everyone. With support for major cryptocurrencies like Bitcoin, Monero, Ethereum, and stablecoins, Cake Wallet provides seamless swaps, self-custody, and advanced privacy features, including Silent Payments and Tor integration.
+
+Built for both crypto beginners and experienced users, Cake Wallet makes crypto accessible with an intuitive, modern interface built around the cryptocurrencies you know and love. Whether you’re securing savings, managing multiple assets, or enabling everyday spending, Cake Wallet is your all-in-one solution for digital finance.
+
+#### Package updates
+
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
