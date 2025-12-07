@@ -20,8 +20,6 @@ foreach ($file in $files) {
   }
 }
 
-Remove-Item -ea 0 -force -path $toolsDir\flaresolverr.zip
-
 $targetPath = Join-Path (Join-Path $toolsDir "flaresolverr") "flaresolverr.exe"
 
 # Add StartMenu shortcut
