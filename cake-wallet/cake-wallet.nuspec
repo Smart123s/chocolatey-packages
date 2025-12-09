@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cake-wallet</id>
-    <version>5.5.0</version>
+    <version>5.6.1</version>
     <title>Cake Wallet</title>
     <authors>Cake Labs LLC</authors>
     <owners>Smart123s</owners>

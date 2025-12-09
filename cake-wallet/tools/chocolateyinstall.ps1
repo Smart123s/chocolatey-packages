@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'EXE'
-  url64         = 'https://github.com/cake-tech/cake_wallet/releases/download/v5.5.0/Cake_Wallet_v5.5.0_Windows.exe'
+  url64         = 'https://github.com/cake-tech/cake_wallet/releases/download/v5.6.1/Cake_Wallet_v5.6.1_Windows.exe'
 
   softwareName  = 'Cake Wallet *'
 
-  checksum64    = 'dc3c01aecea53568f47631336e947d0e3e45b86634a69beebbaaee1bc630f70c'
+  checksum64    = '75e1de007ce16cf47ab710bcc29b3ed0e3df99a021ead1961580096fcbe20684'
   checksumType  = 'sha256'
 
   silentArgs    = '/VERYSILENT /NORESTART'
