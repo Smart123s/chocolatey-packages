@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mkp224o</id>
+    <version>1.7.0</version>
+    <title>mkp224o</title>
+    <authors>cathugger</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://github.com/cathugger/mkp224o</projectUrl>
+    <copyright>CC0 1.0 Universal</copyright>
+    <licenseUrl>https://github.com/cathugger/mkp224o/blob/master/COPYING.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/cathugger/mkp224o</projectSourceUrl>
+    <docsUrl>https://github.com/cathugger/mkp224o/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/cathugger/mkp224o/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/mkp224o</packageSourceUrl>
+    <tags>tor onion ed25519</tags>
+    <summary>vanity address generator for tor onion v3 (ed25519) hidden services</summary>
+    <description>## mkp224o - vanity address generator for ed25519 onion services
+
+This tool generates vanity ed25519 (hidden service version 3, formely known as proposal 224) onion addresses.
+
+### Usage
+
+mkp224o needs one or more filters to work. You may specify them as command line arguments, eg `./mkp224o test`, or load them from file with `-f` switch.
+
+It makes directories with secret/public keys and hostnames for each discovered service. By default, the working directory is the current  directory, but that can be overridden with `-d` switch.
+
+Use `-s` switch to enable printing of statistics, which may be useful when benchmarking different ed25519 implementations on your machine.
+
+Use `-h` switch to obtain all available options.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
