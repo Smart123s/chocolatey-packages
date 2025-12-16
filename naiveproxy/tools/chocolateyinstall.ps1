@@ -4,11 +4,11 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url           = 'https://github.com/klzgrad/naiveproxy/releases/download/v140.0.7339.123-1/naiveproxy-v140.0.7339.123-1-win-x86.zip'
-  url64         = 'https://github.com/klzgrad/naiveproxy/releases/download/v140.0.7339.123-1/naiveproxy-v140.0.7339.123-1-win-x64.zip'
+  url           = 'https://github.com/klzgrad/naiveproxy/releases/download/v143.0.7499.109-1/naiveproxy-v143.0.7499.109-1-win-x86.zip'
+  url64         = 'https://github.com/klzgrad/naiveproxy/releases/download/v143.0.7499.109-1/naiveproxy-v143.0.7499.109-1-win-x64.zip'
 
-  checksum      = '96a1f833008f2473d1b3a6e44d48a8f5445f088afda64723235975b1add5d272'
-  checksum64    = '59d3003793174bbad63fa16e94c4a9cb0a8fd3d12f3a55377cba7c311817590d'
+  checksum      = '023534610f2d0f035e940507a504148ec6e163642f43103e7ef3754eb382385c'
+  checksum64    = 'af43d355af48a7b108a24f4a8526989adc7bdff89a3f5586afd7ab1d5c24626b'
   checksumType  = 'sha256'
 
   silentArgs    = '/quiet'
