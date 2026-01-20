@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xenia</id>
+    <version>1.0.2840</version>
+    <title>xenia</title>
+    <authors>xenia-project</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://xenia.jp/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xenia-project/xenia@0a19234b4e6905f2cd249b4af6172ca4656c92de/assets/icon/1024.png</iconUrl>
+    <copyright>BSD 3-Clause License</copyright>
+    <licenseUrl>https://github.com/xenia-project/xenia/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/xenia-project/xenia</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/xenia-project/xenia/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/xenia</packageSourceUrl>
+    <tags>emulaton emulation d3d12 ppc xenon xbox360 </tags>
+    <summary>Xbox 360 Emulator Research Project</summary>
+    <description>Xenia is an experimental emulator for the Xbox 360.
+
+#### Disclaimer
+
+The goal of this project is to experiment, research, and educate on the topic of emulation of modern devices and operating systems. It is not for enabling illegal activity. All information is obtained via reverse engineering of legally purchased devices and games and information made public on the internet (you'd be surprised what's indexed on Google...).
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>

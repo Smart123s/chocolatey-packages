@@ -1,0 +1,7 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+FModel.zip:
+Download: https://github.com/xenia-project/release-builds-windows/releases/download/v1.0.2840-master/xenia_master.zip
+sha256: 0ECDB0BB7D2FB4E476F077BE7CE6BF4D1E26A451BF83C593AB7A38F1123A4451
