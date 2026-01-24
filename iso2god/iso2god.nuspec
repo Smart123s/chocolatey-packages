@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iso2god</id>
+    <version>1.5.0</version>
+    <title>Iso2God</title>
+    <authors>r4dius</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://github.com/r4dius/Iso2God</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@43bac5778c290fb906a3ed12cd2c0ca082f9c40a/icons/iso2god.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/r4dius/Iso2God</projectSourceUrl>
+    <docsUrl>https://github.com/r4dius/Iso2God/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/r4dius/Iso2God/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/iso2god</packageSourceUrl>
+    <tags>game xbox xbox360 convert</tags>
+    <summary>ISO2GOD is a Windows utility originally written by KrK which allows conversion of original Xbox and Xbox 360 .isos into a Games on Demand container.</summary>
+    <description>ISO2GOD is a Windows utility originally written by KrK which allows conversion of original Xbox and Xbox 360 .isos into a Games on Demand container. This is useful, as playing game backups directly on the console requires either a GoD container or extracted files. GoD containers can be preferable over extracted files, as they don't have compatibility issues with some games and can be transferred quicker due to having a few large files instead of a large amount of tiny files. They will also be listed in the Microsoft dashboards, as they are the official format used for retail games from the marketplace.
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
