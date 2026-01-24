@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mega-mario</id>
+    <version>1.7</version>
+    <title>Mega Mario</title>
+    <authors>cobex22</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://mmario.sourceforge.net/</projectUrl>
+    <iconUrl>https://a.fsdn.com/allura/p/mmario/icon</iconUrl>
+    <copyright>GPL-2.0 License</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/projects/mmario/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/mmario/bugs/</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/mega-mario</packageSourceUrl>
+    <tags>game mario</tags>
+    <summary>Mega Mario is a Super Mario Bros. 1 clone</summary>
+    <description>#### In the game you play Mario and your task is to free his brother Luigi, who was captured by evil Bowser. Mario is controlled by Keyboard or Gamepad using the arrowkeys to walk, Space / A to jump and CTRL / B to run/fire. After reaching a castle the game is saved and can be continued at any time by clicking on "Load Game".
+Mega Mario also features a blood-mode, which makes killed enemies spread their blood all over the level!
+
+Create your own levels after completing the game with the Level-Editor
+(read "Editor.txt").
+
+#### Package Parameters:
+
+ - `/NoDesktopShortcut` Do not create Desktop Shortcut
+ - `/NoStartMenuShortcut` Do not create Start Menu Shortcut</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>

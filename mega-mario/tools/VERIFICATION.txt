@@ -1,0 +1,7 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+MegaMario_v1.7_full.zip:
+Download x64: https://sourceforge.net/projects/mmario/files/Mega%20Mario%20Full%20Game/Mega%20Mario%20v1.7%20%28Full%20Game%2C%20high%20Quality%20music%29/MegaMario_v1.7_full.zip/download
+sha256 x64: 243ebf03cb1e5c5e7cead48d9a988ffb9a1c94f9427f71ea559ad047486c9e72
