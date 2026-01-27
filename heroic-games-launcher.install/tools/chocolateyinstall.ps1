@@ -3,10 +3,10 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'EXE'
-  softwareName   = 'Heroic 2.19.0'
+  softwareName   = 'Heroic 2.19.1'
 
-  url64          = 'https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.19.0/Heroic-2.19.0-Setup-x64.exe'
-  checksum64     = 'f23794ff0f3828e7bf35923fb051cdee0db38f97454ebdd243bef224d1bb2cb1'
+  url64          = 'https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.19.1/Heroic-2.19.1-Setup-x64.exe'
+  checksum64     = '8675b983b8abb1497f9037a434585b69b60436000ea980f9bfaa207f25633489'
 
   checksumType   = 'sha256'
 
