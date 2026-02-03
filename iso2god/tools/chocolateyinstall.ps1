@@ -6,8 +6,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   UnzipLocation = $toolsDir
   
-  url64         = 'https://github.com/r4dius/Iso2God/releases/download/1.5.0/iso2god-v1.5.0.zip'
-  checksum64    = '0db2e32bffebe6fa9f2989ec4d323a48f1552fca2f1901bd20bfd9603d5ff8fb'
+  url64         = 'https://github.com/r4dius/Iso2God/releases/download/1.6.0/iso2god-v1.6.0.zip'
+  checksum64    = '7288a31b884332d6436c9fb00e4573b58ea53062b21cbd3b828d8af651d759ac'
   
   checksumType  = 'sha256'
 }
