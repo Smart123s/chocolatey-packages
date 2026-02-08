@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pear-desktop</id>
+    <version>3.11.0</version>
+    <title>Pear Desktop</title>
+    <authors>th-ch</authors>
+    <owners>Smart123s</owners>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pear-devs/pear-desktop@ba89772b09eacaeb1ebd8de085708f40359375fe/assets/icon.svg</iconUrl>
+    <copyright>MIT License</copyright>
+    <licenseUrl>https://github.com/pear-devs/pear-desktop/blob/master/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/pear-devs/pear-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pear-devs/pear-desktop/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/pear-desktop</packageSourceUrl>
+    <tags>youtube music</tags>
+    <summary>A desktop client for YouTube Music</summary>
+    <description>A desktop client for YouTube Music
+#### Disclaimer
+
+**No Affiliation**
+
+This project, and its contributors, are not affiliated with, authorized by, endorsed by, or in any way officially connected with Google LLC, YouTube, or any of their subsidiaries or affiliates. **This is an independent, non-profit, and unofficial extension developed by a team of volunteers with the goal of providing a desktop experience.**
+
+**Trademarks**
+
+The names "Google" and "YouTube Music", as well as related names, marks, emblems, and images, are registered trademarks of their respective owners. Any use of these trademarks is for identification and reference purposes only and does not imply any association with the trademark holder. We have no intention of infringing upon these trademarks or causing harm to the trademark holders.
+
+**Limitation of Liability**
+
+This application (extension) is provided "AS IS", and you use it at your own risk. In no event shall the developers or contributors be liable for any claim, damages, or other liability, including any legal consequences, arising from, out of, or in connection with the software or the use or other dealings in the software. The responsibility for any and all outcomes of using this software rests entirely with the user.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
