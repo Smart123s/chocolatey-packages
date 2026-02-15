@@ -6,6 +6,7 @@
     <title>Pear Desktop</title>
     <authors>th-ch</authors>
     <owners>Smart123s</owners>
+    <projectUrl>https://github.com/pear-devs/pear-desktop</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pear-devs/pear-desktop@ba89772b09eacaeb1ebd8de085708f40359375fe/assets/icon.svg</iconUrl>
     <copyright>MIT License</copyright>
     <licenseUrl>https://github.com/pear-devs/pear-desktop/blob/master/license</licenseUrl>
