@@ -15,6 +15,7 @@
     <bugTrackerUrl>https://github.com/pear-devs/pear-desktop/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/pear-desktop</packageSourceUrl>
     <tags>youtube music</tags>
+    <releaseNotes>https://github.com/pear-devs/pear-desktop/releases/tag/v3.11.0</releaseNotes>
     <summary>A desktop client for YouTube Music</summary>
     <description>A desktop client for YouTube Music
 #### Disclaimer

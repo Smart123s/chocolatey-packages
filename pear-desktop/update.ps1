@@ -5,7 +5,10 @@ function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
             "(?m)^\s*(url\s*=\s*)('.*')"       = "`$1'$($Latest.URL)'"
-            "(?m)^\s*(checksum\s*=\s*)('.*')"  = "`$1'$($Latest.Checksum)'"
+            "(?m)^\s*(checksum\s*=\s*)('.*')"  = "`$1'$($Latest.Checksum32)'"
+        }
+        "pear-desktop.nuspec" = @{
+            "(?i)(<releaseNotes>)(.*)(</releaseNotes>)" = "`$1https://github.com/pear-devs/pear-desktop/releases/tag/v$($Latest.Version)`$3"
         }
     }
 }
