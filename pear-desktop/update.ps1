@@ -4,13 +4,8 @@ import-module au
 function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
-            # Update 64-bit variables
-            "(url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-            "(checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
-            
-            # Update 32-bit variables (Same file used for both)
-            "(?m)^\s*(url\s*=\s*)('.*')"       = "`$1'$($Latest.URL64)'"
-            "(?m)^\s*(checksum\s*=\s*)('.*')"  = "`$1'$($Latest.Checksum64)'"
+            "(?m)^\s*(url\s*=\s*)('.*')"       = "`$1'$($Latest.URL)'"
+            "(?m)^\s*(checksum\s*=\s*)('.*')"  = "`$1'$($Latest.Checksum)'"
         }
     }
 }
@@ -31,7 +26,7 @@ function global:au_GetLatest {
     }
 
     @{
-       URL64   = 'https://github.com' + $url64
+       URL   = 'https://github.com' + $url64
        Version = $version
     }
 }
@@ -39,7 +34,7 @@ function global:au_GetLatest {
 try {
     # Calculate checksum. 
     # Since it is a unified installer, we treat it as 64-bit here to populate $Latest.URL64/Checksum64
-    update -ChecksumFor 64
+    update -ChecksumFor 32
 } catch {
     $ignore = 'Unable to connect to the remote server'
     if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
