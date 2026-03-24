@@ -9,8 +9,7 @@ $packageArgs = @{
 
   checksumType  = 'sha256'
   
-  # Updated to match the new software name (Wildcard handles version/naming variations)
-  softwareName  = 'YouTube Music Web *' 
+  softwareName  = 'YouTube Music *' 
 
   silentArgs    = '/S'
   validExitCodes= @(0, 3010, 1641)
