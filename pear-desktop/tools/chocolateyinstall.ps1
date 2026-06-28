@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'EXE'
   
-  url           = 'https://github.com/pear-devs/pear-desktop/releases/download/v3.11.0/YouTube-Music-Web-Setup-3.11.0.exe'
-  checksum      = '62ff8b86c44ff0e2cf4a4eb940bb689be38ef2fb7ebe3783c3f5f15f1b6fea3c'
+url           = 'https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-Web-Setup-3.12.0.exe'
+checksum      = 'b8edd18bec9791aa9068c6a2baa74346437fa1eb7587393325a6473c00442c71'
 
   checksumType  = 'sha256'
   
