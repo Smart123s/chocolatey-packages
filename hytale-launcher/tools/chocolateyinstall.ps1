@@ -7,7 +7,7 @@ $packageArgs = @{
 
   softwareName  = 'Hytale Launcher'
 
-  checksum64    = '59E69239196F0EAF5078F84B85037EF959EA13471BCE11CD3CFD369067BAA76F'
+  checksum64    = '394DC254E5867347502FA4CD09ABA5F806E649B60AFFBD0B3EC31F8114165D51'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
