@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'EXE'
-  url64         = 'https://launcher-files.modrinth.com/versions/0.18.0/windows/Modrinth%20App_0.18.0_x64-setup.exe'
+  url64         = 'https://launcher-files.modrinth.com/versions/0.19.1/windows/Modrinth%20App_0.19.1_x64-setup.exe'
 
   softwareName  = 'Modrinth App'
 
-  checksum64    = 'a82e7433bf1a6361121c61cf23239e93b7d08dedef3b8af5b94995a04605324b'
+  checksum64    = 'ee3ba68249c0fc81ddabd6c7bfa7f3b967911a1b142e4414f6fbccede411e406'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
