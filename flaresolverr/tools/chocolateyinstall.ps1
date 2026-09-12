@@ -3,8 +3,8 @@ $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definitio
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url64         = 'https://github.com/FlareSolverr/FlareSolverr/releases/download/v3.5.0/flaresolverr_windows_x64.zip'
-  checksum64    = '76a6c3e43af7de3827b2ea1badf2bb607f664caa445cef3f14d624b421f7e01e'
+  url64         = 'https://github.com/FlareSolverr/FlareSolverr/releases/download/v3.5.2/flaresolverr_windows_x64.zip'
+  checksum64    = '309abd7c821546325ae6c509b40d969c5e39034be2314d21b3f5e0517feda7a7'
   checksumType  = 'sha256'
   UnzipLocation = $toolsDir
 }
