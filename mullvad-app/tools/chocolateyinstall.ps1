@@ -5,9 +5,9 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url64         = 'https://github.com/mullvad/mullvadvpn-app/releases/download/2026.4/MullvadVPN-2026.4.exe'
+  url64         = 'https://github.com/mullvad/mullvadvpn-app/releases/download/2026.5/MullvadVPN-2026.5.exe'
 
-  checksum64    = '8c3e57f6cc2a8e8df36a5ad809d0f1861e3b9261ccbd8b72af697fd7a3bf7880'
+  checksum64    = '6b462684336bc0b9b7964846b2635af1723fa9d5817211117e1532ef86a2adc0'
   checksumType64= 'sha256'
 
   silentArgs    = '/S'
