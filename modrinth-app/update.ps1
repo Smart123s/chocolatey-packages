@@ -1,4 +1,4 @@
-Import-Module AU
+Import-Module chocolatey-au
 
 $releases = 'https://launcher-files.modrinth.com/updates.json?new'
 

@@ -1,7 +1,8 @@
-# AU template: https://github.com/majkinetor/au-packages-template
+# AU template: https://github.com/chocolatey-community/chocolatey-packages-template
 
 version: '{build}'
 max_jobs: 1
+image: Visual Studio 2022
 # History plugin requires complete log
 #clone_depth: 5
 branches:
@@ -46,8 +47,11 @@ install:
 - choco --version
 - ps: 'Install-Module wormies-au-helpers -Repository PSGallery -Force'
 - ps: |
-    git clone -q https://github.com/majkinetor/au.git $Env:TEMP/au
-    . "$Env:TEMP/au/scripts/Install-AU.ps1" $Env:au_version
+    if ($Env:au_version) {
+      choco install chocolatey-au --version $Env:au_version -y
+    } else {
+      choco install chocolatey-au -y
+    }
 
 - ps: |
     "Build info"
@@ -62,6 +66,7 @@ build_script:
 - ps: |
     $ErrorActionPreference = 'Continue'
     Import-Module wormies-au-helpers
+    Import-Module chocolatey-au
 
     if ($Env:APPVEYOR_PROJECT_NAME  -like '*test*') { ./test_all.ps1 "random $Env:au_test_groups"; return }
 

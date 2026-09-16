@@ -1,4 +1,4 @@
-Import-Module AU
+Import-Module chocolatey-au
 
 $releases = 'https://tools.google.com/service/update2/'
 $releases_body = '<?xml version="1.0" encoding="UTF-8"?><request><os platform="win" version="10.0.22000.978" sp="" arch="x64"/><app appid="{232066FE-FF4D-4C25-83B4-3F8747CF7E3A}" version="" nextversion="" lang="en"><updatecheck/></app></request>'

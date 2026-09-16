@@ -1,4 +1,4 @@
-Import-Module AU
+Import-Module chocolatey-au
 
 $releases = 'https://en.miui.com/unlock/download_en.html'
 

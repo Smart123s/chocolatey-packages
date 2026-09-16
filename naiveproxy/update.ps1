@@ -1,4 +1,4 @@
-import-module au
+Import-Module chocolatey-au
 . $([System.IO.Path]::Combine("..", '_scripts', 'Get-GitHubLatestReleaseLinks.ps1'))
 
 function global:au_SearchReplace {

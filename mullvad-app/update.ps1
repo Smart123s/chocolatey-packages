@@ -1,4 +1,4 @@
-Import-Module AU
+Import-Module chocolatey-au
 Add-Type -AssemblyName System.Web
 
 $releases = 'https://mullvad.net/en/download/vpn/windows'

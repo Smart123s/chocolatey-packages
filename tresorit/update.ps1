@@ -1,4 +1,4 @@
-Import-Module AU
+Import-Module chocolatey-au
 
 # The webpage doesn't mention the version of the file, so it has to be downloaded to check it
 $releases = 'https://installerstorage.blob.core.windows.net/public/install/Tresorit.exe'
