@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gusek</id>
+    <version>0.2.24</version>
+    <title>GUSEK (GLPK Under Scite Extended Kit)</title>
+    <authors>Luiz Bettoni</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://gusek.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@d616921f044fb272a1e1085e8ae67a764a14f067/icons/gusek.png</iconUrl>
+    <copyright>Copyright (C) 2008-2018 Luiz Bettoni</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/gusek/code/HEAD/tree/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/gusek</packageSourceUrl>
+    <docsUrl>https://gusek.sourceforge.net/gusek.html</docsUrl>
+    <tags>gusek glpk scite gmpl mathprog optimization linear-programming milp portable</tags>
+    <summary>A portable IDE for linear and mixed-integer programming using GLPK.</summary>
+    <description><![CDATA[GUSEK (GLPK Under Scite Extended Kit) is an open-source Windows IDE for linear programming and mixed-integer linear programming. It combines a customized SciTE editor with the GLPK standalone solver and supports GNU MathProg (GMPL), MPS, and CPLEX LP models.
+
+### Package notes
+
+Keep your own models and data outside the Chocolatey package directory, which is removed on uninstall. Close GUSEK before upgrading or uninstalling.
+
+### Package parameters
+
+- `/NoDesktopShortcut` - Do not create a desktop shortcut.
+- `/NoStartMenuShortcut` - Do not create a Start Menu shortcut.
+
+Example: `choco install gusek --params="'/NoDesktopShortcut /NoStartMenuShortcut'"`
+
+### Package updates
+
+The package source includes an AU-compatible `update.ps1` script that checks the official SourceForge release folders and updates the version, download URL, and checksum.]]></description>
+    <releaseNotes>https://gusek.sourceforge.net/gusek.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>

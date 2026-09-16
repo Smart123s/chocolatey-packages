@@ -1,0 +1,7 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+gusek.zip:
+Download: https://downloads.sourceforge.net/project/gusek/gusek/0.2.24/gusek_0-2-24.zip
+SHA256: C596073057054857327033C1A24C654660CC2128B81BA8C60B3A3FC8AAF283EB
