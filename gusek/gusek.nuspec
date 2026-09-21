@@ -9,7 +9,7 @@
     <projectUrl>https://gusek.sourceforge.net/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@d616921f044fb272a1e1085e8ae67a764a14f067/icons/gusek.png</iconUrl>
     <copyright>Copyright (C) 2008-2018 Luiz Bettoni</copyright>
-    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <licenseUrl>https://gusek.sourceforge.net/gusek.html#11</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/gusek/code/HEAD/tree/</projectSourceUrl>
     <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/gusek</packageSourceUrl>
