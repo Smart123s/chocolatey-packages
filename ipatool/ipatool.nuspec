@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ipatool</id>
+    <version>2.6.0</version>
+    <title>ipatool</title>
+    <authors>Majd Alfhaily</authors>
+    <owners>Smart123s</owners>
+    <projectUrl>https://github.com/majd/ipatool</projectUrl>
+    <copyright>Copyright (c) 2021 Majd Alfhaily</copyright>
+    <licenseUrl>https://github.com/majd/ipatool/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/majd/ipatool</projectSourceUrl>
+    <docsUrl>https://github.com/majd/ipatool/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/majd/ipatool/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Smart123s/chocolatey-packages/tree/master/ipatool</packageSourceUrl>
+    <tags>ipatool apple appstore ios ipados tvos visionos macos ipa cli</tags>
+    <summary>Search the App Store and download IPA or macOS PKG app packages.</summary>
+    <description>ipatool is a command-line tool for searching for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store and downloading .ipa or macOS .pkg app packages.
+
+This package includes the Windows x64 executable and makes the `ipatool` command available on PATH. No additional download is required during installation. An Apple Account already configured to use the App Store is required to use the tool.
+
+#### Package updates
+   
+New versions of this package are published automatically via the `update.ps1` script (viewable in the package source on GitHub).</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
