@@ -1,6 +1,6 @@
 Import-Module chocolatey-au
 
-. $PSScriptRoot\..\geekbench6\update.ps1
+. $PSScriptRoot\..\geekbench7\update.ps1
 
 function global:au_SearchReplace {
     $majorVersion = $($Latest.Version).Split('.') | select -First 1
