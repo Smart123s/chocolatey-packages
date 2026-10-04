@@ -1,6 +1,6 @@
 Import-Module chocolatey-au
 
-$releases = 'https://www.geekbench.com/download/windows/'
+. $PSScriptRoot\..\geekbench6\update.ps1
 
 function global:au_SearchReplace {
     $majorVersion = $($Latest.Version).Split('.') | select -First 1
@@ -16,17 +16,6 @@ function global:au_BeforeUpdate {
     # Do not download installer
 }
 
-function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
-    $regex         = '.*-WindowsSetup.exe'
-    $url           = $download_page.links | ? href -match $regex | select -First 1 -expand href
-    $version       = ($url -split '-' | select -Skip 1 -Last 1)
-	
-    if (-not $version.StartsWith('6')) {
-        throw 'New major version has been released. Aborting update.'
-    }
-
-    return @{ Version = $version; URL64 = $url }
+if ($MyInvocation.InvocationName -ne '.') {
+    Update-Package -ChecksumFor none
 }
-
-Update-Package -ChecksumFor none
