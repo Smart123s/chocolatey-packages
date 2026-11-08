@@ -3,11 +3,11 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 ipatool.exe (Windows x64):
-Download: https://github.com/majd/ipatool/releases/download/v2.7.0/ipatool-2.7.0-windows-amd64.tar.gz
-Archive sha256: B729608716908BE287C2E6972F9E8CD05F879810AE5D182FC856C9E57CCA0DD5
-Extract: bin/ipatool-2.7.0-windows-amd64.exe
+Download: https://github.com/majd/ipatool/releases/download/v2.8.0/ipatool-2.8.0-windows-amd64.tar.gz
+Archive sha256: 535A9600F6DD49D741C400B8ACCFC2C05926C39E2FF98F06D4D8EF862961474B
+Extract: bin/ipatool-2.8.0-windows-amd64.exe
 Rename the extracted executable to ipatool.exe. The binary is otherwise unmodified.
-Binary sha256: 7B83589B74AD533F5D5DBAB0CA87A5CB76B123BCBEB2553D57E9C154E35D8755
+Binary sha256: C450C6854A99FD017A136660F5AD7CB7B6C0B2ECDF96342E1EBAD65A6EAB8ABF
 
 The publisher's checksum is available at the download URL with .sha256sum appended.
 Use Get-FileHash -Algorithm SHA256 to verify the archive and the extracted executable.
