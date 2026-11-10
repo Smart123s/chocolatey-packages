@@ -7,6 +7,7 @@
     <authors>Majd Alfhaily</authors>
     <owners>Smart123s</owners>
     <projectUrl>https://github.com/majd/ipatool</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Smart123s/chocolatey-packages@ee9455c162657f92ba35b0d4e9cb0996948b6d94/icons/ipatool.svg</iconUrl>
     <copyright>Copyright (c) 2021 Majd Alfhaily</copyright>
     <licenseUrl>https://github.com/majd/ipatool/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
